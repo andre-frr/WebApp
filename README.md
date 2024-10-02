@@ -6,4 +6,3 @@ Composição do grupo:
 - André Ferreira (220001208);
 - Diogo Pedro (220000891);
 - David Berec (220000909).
-dadasdsa
