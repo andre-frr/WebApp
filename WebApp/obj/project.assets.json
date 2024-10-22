@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\WebApp\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\WebApp\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
