@@ -5133,6 +5133,7 @@ textarea.form-control-lg {
 }
 
 .accordion {
+    padding: 20px;
     --bs-accordion-color: var(--bs-body-color);
     --bs-accordion-bg: var(--bs-body-bg);
     --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
