@@ -4,7 +4,7 @@ namespace WebApp.Controllers
 {
     public class AuthController : Controller
     {
-        public IActionResult Login()
+        public IActionResult Index()
         {
             return View();
         }

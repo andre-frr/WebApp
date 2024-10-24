@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\WebApp-TI_Grupo3\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Auth/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Auth/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Auth/Register.cshtml]
