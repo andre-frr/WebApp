@@ -1,3 +1,104 @@
 ﻿@{
     ViewData["Title"] = "Fica Comigo Esta Noite";
 }
+
+<style>
+    .event-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        max-width: 55%;
+        margin: 20px auto;
+    }
+
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .event-details h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .event-classification {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .event-notes h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .event-description {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .button-wrapper {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .buy-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="event-container">
+    <div class="event-header">
+        <div class="image-wrapper">
+            <img src="~/img/FCENPoster.jpeg" alt="Fica Comigo Esta Noite">
+        </div>
+        <div class="event-details">
+            <h1>Fica Comigo Esta Noite</h1>
+            <p class="event-classification">
+                Classificação: Maiores de 14 anos<br />
+                Tipo: Teatro
+            </p>
+            <div class="event-notes">
+                <h4>Começo: 21:30</h4>
+                <h4>Duração: 90 minutos</h4>
+            </div>
+        </div>
+    </div>
+    <div class="event-description">
+        <h2><b>DESCRIÇÃO</b></h2>
+        <p>
+            Numa pequena cidade, um funcionário de classe média/baixa morre de repente, depois de um farto almoço. A sua esposa não está presente e para ela o sentimento de perda soma-se ao da culpa porque estava fora de casa no momento fatídico.
+            A notícia espalha-se, ela decide que o marido será velado na cama do casal, e não tarda em começar a receber visitas de amigos, vizinhos e parentes. Num turbilhão de sentimentos e perante toda a situação, ela apenas consegue lembrar-se
+            dos episódios maus que passou com o marido. É então que, sem qualquer cerimónia, ele passa a ser espectador do seu próprio velório! Já sozinhos ele passa de espectador a interveniente e sem demoras decide questionar a sua própria mulher.
+            Eles discutem. Brincam. Põem em pratos limpos todas as desavenças, rancores e traições. Os mal entendidos acabam por ser desfeitos. As traições perdoadas e acima de tudo, os votos de amor renovados. Depois de uma noite de comédia e romance,
+            quando ela abre a porta do quarto, já pode enterrar o seu marido em paz!
+        </p>
+    </div>
+    <div class="button-wrapper">
+        <button class="buy-button">COMPRAR BILHETES</button>
+    </div>
+</div>

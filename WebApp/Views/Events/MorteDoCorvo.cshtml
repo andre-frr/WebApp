@@ -1,3 +1,107 @@
 ﻿@{
     ViewData["Title"] = "A Morte do Corvo";
 }
+
+<style>
+    .event-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        max-width: 55%;
+        margin: 20px auto;
+    }
+
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .event-details h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .event-classification {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .event-notes h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .event-description {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .button-wrapper {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .buy-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="event-container">
+    <div class="event-header">
+        <div class="image-wrapper">
+            <img src="~/img/CorvoPoster.jpeg" alt="A Morte do Corvo">
+        </div>
+        <div class="event-details">
+            <h1>A Morte do Corvo</h1>
+            <p class="event-classification">
+                Classificação: Maiores de 18 anos <sup>1</sup><br />
+                Tipo: Teatro Imersivo
+            </p>
+            <div class="event-notes">
+                <h4>Começo: 14:00</h4>
+                <h4>Duração: 110 minutos</h4>
+            </div>
+        </div>
+    </div>
+    <div class="event-description">
+        <h2><b>DESCRIÇÃO</b></h2>
+        <p>
+            Pessoa convida o seu grande amigo Mário para o ritual de iniciação à ORDEM dos CORVOS, uma sociedade que procura o segredo da vida para além da morte. A Ordem, liderada por Edgar A. Poe, esconde-se no andar de cima da funerária Nevermore.<br />
+            <br />
+            Vários acontecimentos vão precipitar Pessoa num ciclo depressivo que terminará da pior forma. A rejeição da sua mulher Ofélia será o primeiro. O segundo, o suicídio de Mário. E o derradeiro … um profundo descrédito em si próprio.<br />
+            <br />
+            Tudo isto orquestrado por Poe, movido por uma incontrolável inveja da genialidade de Pessoa.<br />
+            <br />
+            Bem-vindos ao funeral anunciado de um dos maiores poetas de sempre.
+        </p>
+    </div>
+    <div class="button-wrapper">
+        <button class="buy-button">COMPRAR BILHETES</button>
+    </div>
+    <small style="font-size: 12px">1. Menores de 18 anos podem entrar acompanhados por um adulto.</small>
+</div>

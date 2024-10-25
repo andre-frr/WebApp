@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\ficacomigoestanoite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\ficacomigoestanoite.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\ahamalia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\ahamalia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MorteDoCorvo.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAswGMAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T09:31:15.257Z",
+              "WhenOpened": "2024-10-25T16:51:23.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AhAmalia.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FicaComigoEstaNoite.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\FicaComigoEstaNoite.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\FicaComigoEstaNoite.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\FicaComigoEstaNoite.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\FicaComigoEstaNoite.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T09:23:14.928Z",
+              "WhenOpened": "2024-10-25T16:41:35.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\EventsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T08:04:28.16Z"
+              "Title": "AhAmalia.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\AhAmalia.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\AhAmalia.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-25T09:23:14.928Z",
+              "EditorCaption": ""
             }
           ]
         }
