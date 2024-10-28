@@ -24,5 +24,9 @@ namespace WebApp.Controllers
         {
             return View();
         }
+        public IActionResult BuyTicket()
+        {
+            return View();
+        }
     }
 }

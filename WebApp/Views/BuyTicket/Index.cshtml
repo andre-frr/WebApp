@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Inscrição no Evento";
+}
+
+<div style="display: flex; justify-content: center; width: 100%; padding-top: 10vh;">
+    <div style="max-width: 600px; width: 100%;">
+        <h2 style="text-align: center;"><b>Inscrição</b></h2>
+        <form style="margin-top:30px">
+            <fieldset>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="John Doe">
+                    <label for="floatingInput">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+            </fieldset>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="@Url.Action("Pay", "BuyTicket")" class="btn btn-outline-dark">Inscrever-me</a>
+            </div>
+        </form>
+    </div>
+</div>
