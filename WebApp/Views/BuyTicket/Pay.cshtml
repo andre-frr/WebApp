@@ -1,3 +1,69 @@
 ﻿@{
     ViewData["Title"] = "Pagamento";
+    var nome = ViewData["Nome"] as string; 
+    var email = ViewData["Email"] as string; 
 }
+
+<style>
+    .form-control {
+        padding: 10px;
+    }
+
+    .form-select {
+        height: calc(3.5rem + 2px);
+        padding: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 200px;
+    }
+</style>
+
+<div style="display: flex; justify-content: center; width: 100%; padding-top: 10vh;">
+    <div style="max-width: 600px; width: 100%;">
+        <h2 style="text-align: center;"><b>Pagamento e Faturação</b></h2>
+        <form style="margin-top: 30px">
+            <fieldset>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nome" value="@nome" readonly>
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" value="@email" readonly>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nif" placeholder="NIF">
+                    <label for="nif">NIF</label>
+                </div>
+                <div class="mb-3">
+                    <label for="paymentMethod" style="font-weight: bold;">Método de Pagamento</label>
+                    <select id="paymentMethod" class="form-select">
+                        <option value="credit">Cartão de Crédito ou Débito (VISA, MasterCard, Visa Electron, Maestro)</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="mbway">MBway</option>
+                        <option value="multibanco">Multibanco</option>
+                        <option value="transferencia">Transferência Bancária</option>
+                        <option value="criptomoeda">Criptomoeda (Bitcoin, Ethereum e mais)</option>
+                    </select>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="billingAddress" placeholder="Rua Exemplo, 123">
+                    <label for="billingAddress">Endereço de Faturação</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="city" placeholder="Cidade">
+                    <label for="city">Cidade</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="postalCode" placeholder="00000-000">
+                    <label for="postalCode">Código Postal</label>
+                </div>
+            </fieldset>
+            <div class="d-flex justify-content-center mt-4">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-outline-dark">Confirmar Pagamento</a>
+            </div>
+        </form>
+    </div>
+</div>

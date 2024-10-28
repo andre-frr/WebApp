@@ -5,14 +5,14 @@
 <div style="display: flex; justify-content: center; width: 100%; padding-top: 10vh;">
     <div style="max-width: 600px; width: 100%;">
         <h2 style="text-align: center;"><b>Inscrição</b></h2>
-        <form style="margin-top:30px">
+          <form action="/Evento/Pagamento" method="post" style="margin-top:30px">
             <fieldset>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="John Doe">
+                    <input type="text" class="form-control" id="floatingInput" name="nome" placeholder="John Doe" required>
                     <label for="floatingInput">Nome</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" required>
                     <label for="floatingInput">Email</label>
                 </div>
             </fieldset>

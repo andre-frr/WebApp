@@ -1,30 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\repos\\WebApp-TI_Grupo3\\",
+  "WorkspaceRootPath": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\buyticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\buyticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\ahamalia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\ahamalia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\buyticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\controllers\\buyticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\buyticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,92 +22,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pay.cshtml",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T16:47:44.501Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AhAmalia.cshtml",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Events\\AhAmalia.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T16:47:04.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "BuyTicketController.cs",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
+              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\BuyTicketController.cs",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
+              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\BuyTicketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:46:14.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\EventsController.cs",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T16:15:48.55Z",
+              "WhenOpened": "2024-10-28T22:57:27.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
               "RelativeToolTip": "WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T16:11:10.342Z",
+              "WhenOpened": "2024-10-28T21:44:03.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
+              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T21:13:54.509Z",
+              "WhenOpened": "2024-10-28T21:38:07.7Z",
               "EditorCaption": ""
             }
           ]
