@@ -1,3 +1,119 @@
 ﻿@{
     ViewData["Title"] = "Querido Evan Hansen";
 }
+
+<style>
+    .event-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        max-width: 55%;
+        margin: 20px auto;
+    }
+
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .event-details h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .event-classification {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .event-notes h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .event-description {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .button-wrapper {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .buy-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="event-container">
+    <div class="event-header">
+        <div class="image-wrapper">
+            <img src="~/img/HansenPoster.jpeg" alt="Querido Evan Hansen">
+        </div>
+        <div class="event-details">
+            <h1>Querido Evan Hansen</h1>
+            <p class="event-classification">
+                Classificação: Maiores de 14 anos<br />
+                Tipo: Teatro
+            </p>
+            <div class="event-notes">
+                <h4>Começo: 21:00</h4>
+                <h4>Duração: 120 minutos</h4>
+            </div>
+        </div>
+    </div>
+    <div class="event-description">
+        <h2><b>DESCRIÇÃO</b></h2>
+        <p>
+            <b>“Querido Evan Hansen”</b>, a adaptação portuguesa do musical “Dear Evan Hansen”, de <b>Steven Levenson</b>, chega finalmente a Portugal.<br />
+            <br />
+            A encenação e adaptação é assinada por <b>Rui Melo</b>, que assumiu também a encenação e co-adaptação dos temas de “Avenida Q”, e a adaptação de canções de “Chicago” e “Os Produtores”.
+            <b>Gabriela Barros, Miguel Raposo, Sílvia Filipe, Brienne Keller, Dany Duarte, Inês Pires Tavares, João Maria Cardoso e João Sá Coelho</b> compõem o elenco e
+            <b>Artur Guimarães</b> (“Avenida Q”, “Chicago”, “Mães”) é responsável pela direcção musical. A música é assinada pela dupla que escreveu as canções de “La La Land”, <b>Benj Pasek</b> e <b>Justin Paul</b>.<br />
+            <br />
+            <b>Querido Evan Hansen</b> é um dos espectáculos mais premiados dos últimos anos. Ao longo do seu percurso arrecadou os mais importantes prémios da indústria, onde se contam, entre muitos outros, 6 <i>Tonys</i>,
+            o <i>Grammy</i> para melhor álbum de teatro musical e 3 Lawrence Oliver. Um sucesso arrebatador que marcou uma viragem na história de audiências da Broadway e dos sítios por onde tem passado, sendo responsável 
+            pela mudança de paradigma no público que habitualmente ia ao teatro, aproximando gerações e trazendo uma faixa de espectadores mais jovem para dentro das salas. Dos EUA ao Reino Unido, passando pelo Brasil, 
+            Canadá, Argentina, Finlândia, Israel, Austrália, Alemanha e República Checa. Chega agora a Portugal pelas mãos da produtora de “Avenida Q”, “Chicago” e “Mães”.<br />
+            <br />
+            Uma carta que ninguém devia ter lido marca o arranque desta história onde Evan, um adolescente tímido, ansioso e com problemas de integração, salta do anonimato social para se transformar no protagonista de uma 
+            história que não lhe pertence. Autêntico, comovente e inspirador <b>“Querido Evan Hansen”</b>, é um espectáculo que promete deixar o público rendido do primeiro ao último acorde.<br />
+            <br />
+            Se a arte imita a vida, <b>“Querido Evan Hansen”</b>, é prova disso. Um musical intimamente contemporâneo sobre a vida e a forma como a vivemos onde as relações humanas, nas suas mais profundas 
+            complexidade e ambiguidade, são as grandes protagonistas.<br />
+            A busca por um lugar no mundo, aceitação e integração ganham corpo no palco através de personagens cujas emoções espelham as nossas, prevalecendo uma mensagem tocante sobre o impacto que podemos ter na vida uns dos outros.<br />
+            É sobre a construção de laços que nos salvam, redenção e reinvenção.<br />
+            Sobre a importância de criar ligações num contexto social que por vezes tende a afastar em vez de unir. Sobre como ninguém é invisível e ninguém merece ser esquecido. É sobre o amor nas suas mais diversas amplitudes.<br />
+            É sobre estar presente. Aqui.
+        </p>
+    </div>
+    <div class="button-wrapper">
+        <button class="buy-button">COMPRAR BILHETES</button>
+    </div>
+</div>

@@ -51,6 +51,35 @@
         </main>
     </div>
 
+    <audio id="bg-audio" autoplay loop>
+        <source src="~/audio/cat.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+        const audio = document.getElementById("bg-audio");
+
+        audio.volume = 0.1;
+
+        if (sessionStorage.getItem("audioTime")) {
+            audio.currentTime = sessionStorage.getItem("audioTime");
+        }
+
+        if (sessionStorage.getItem("isPlaying") === "true") {
+            audio.play();
+        }
+  
+        audio.addEventListener("timeupdate", () => {
+            sessionStorage.setItem("audioTime", audio.currentTime);
+        });
+
+        audio.addEventListener("play", () => {
+            sessionStorage.setItem("isPlaying", "true");
+        });
+
+        audio.addEventListener("pause", () => {
+            sessionStorage.setItem("isPlaying", "false");
+        });
+    </script>
+
     <footer class="border-top footer text-muted" style="text-align: center">
         <div class="container">
             &copy; 2024 TI (Grupo 3) • <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a> • <a asp-area="" asp-controller="Home" asp-action="About">Quem somos</a>
