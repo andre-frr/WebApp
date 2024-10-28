@@ -1,3 +1,107 @@
 ﻿@{
     ViewData["Title"] = "Solteira Casada Viúva Divorciada";
 }
+
+<style>
+    .event-container {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #fff;
+        max-width: 55%;
+        margin: 20px auto;
+    }
+
+    .event-header {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .image-wrapper {
+        width: 20%;
+        margin-right: 10px;
+    }
+
+        .image-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+    .event-details h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .event-classification {
+        font-size: 14px;
+        color: #555;
+    }
+
+    .event-notes h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin: 8px 0;
+    }
+
+    .event-description {
+        margin-top: 30px;
+        text-align: justify;
+    }
+
+    .button-wrapper {
+        text-align: right;
+        margin-top: 20px;
+    }
+
+    .buy-button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+        .buy-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<div class="event-container">
+    <div class="event-header">
+        <div class="image-wrapper">
+            <img src="~/img/SCVDPoster.jpeg" alt="Solteira Casada Viúva Divorciada">
+        </div>
+        <div class="event-details">
+            <h1>Solteira Casada Viúva Divorciada</h1>
+            <p class="event-classification">
+                Classificação: Maiores de 14 anos<br />
+                Tipo: Teatro
+            </p>
+            <div class="event-notes">
+                <h4>Começo: 21:00</h4>
+                <h4>Duração: 120 minutos</h4>
+            </div>
+        </div>
+    </div>
+    <div class="event-description">
+        <h2><b>DESCRIÇÃO</b></h2>
+        <p>
+            Para comemorar 20 anos de carreira, Melânia Gomes apresenta-nos quatro mulheres muito especiais.<br />
+            Vera, solteira, trabalha num serviço de apoio telefónico a vítimas de solidão… mas o que ela gostava mesmo era de ter alguém que a apoiasse a ela!<br />
+            Carmo, casada, descobre a traição do marido e pondera seriamente tornar-se acompanhante de luxo… mas falta-lhe vocação!<br />
+            Celeste, viúva, tenta explicar em tribunal a bizarra sucessão de acontecimentos que levou à morte do marido… e como, de caminho, conseguiu finalmente dizer um palavrão!<br />
+            Catarina, divorciada, já tentou encontrar o homem certo. Várias vezes. Mas a única que está sempre certa é ela, porque os homens estão sempre errados!<br />
+            E todas elas são Melânia Gomes, numa viagem vertiginosa ao Planeta das Mulheres!<br />
+            “Solteira Casada Viúva Divorciada” é uma comédia delirante.<br />
+            Uma visita guiada a cada estado civil com uma actriz em estado de graça, que vai deixar tudo em estado de sítio!
+        </p>
+    </div>
+    <div class="button-wrapper">
+        <button class="buy-button">COMPRAR BILHETES</button>
+    </div>
+</div>

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\solteiracasadaviuvadivorciada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\solteiracasadaviuvadivorciada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\queridoevanhansen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\queridoevanhansen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SolteiraCasadaViuvaDivorciada.cshtml",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml*",
+              "RelativeToolTip": "WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T15:45:16.526Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -30,28 +51,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "QueridoEvanHansen.cshtml",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAuwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T15:29:17.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-25T21:13:54.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MorteDoCorvo.cshtml",
               "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
               "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
               "RelativeToolTip": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-25T21:01:15.248Z"
+              "WhenOpened": "2024-10-25T21:01:15.248Z",
+              "EditorCaption": ""
             }
           ]
         }
