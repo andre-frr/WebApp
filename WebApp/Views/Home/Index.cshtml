@@ -12,18 +12,22 @@
             margin: 0 auto;
             padding-top: 40px;
         }
+
         .events-page .event {
             background-color: white;
             border: 1px solid #ddd;
             border-radius: 8px;
             overflow: hidden;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
         }
-            .events-page .event img {
-                width: 100%;
-                height: auto;
-                display: block;
-            }
+
+        .events-page .event img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         .events-page h2 {
             background-color: #333;
             color: white;
@@ -32,49 +36,51 @@
             font-size: 1.2em;
             text-align: center;
         }
+
         .events-page h3 {
             font-size: 1.4em;
             margin: 10px;
             color: #333;
         }
+
         .events-page p {
             font-size: 1em;
-            margin: 0 10px 10px 10px;
+            margin: 0 10px 10px;
             color: #777;
         }
     </style>
 </head>
 <body>
     <div class="events-page">
-        <h1 style="padding-top: 40px; text-align: center">
+        <h1 style="padding-top: 40px; text-align: center;">
             <strong>DESTAQUES</strong>
         </h1>
         <div class="container">
-            <div class="event" onclick="window.location.href='@Url.Action("FicaComigoEstaNoite", "Events")'" style="cursor: pointer;">
+            <div class="event" onclick="window.location.href='@Url.Action("FicaComigoEstaNoite", "Events")'">
                 <h2>5 DEZ | 21:30</h2>
                 <img src="~/img/FCENPoster.jpeg" alt="Fica Comigo Esta Noite">
                 <h3>Fica Comigo Esta Noite</h3>
                 <p>Teatro José Lúcio da Silva | Leiria</p>           
             </div>
-            <div class="event" onclick="window.location.href='@Url.Action("QueridoEvanHansen", "Events")'" style="cursor: pointer;">
+            <div class="event" onclick="window.location.href='@Url.Action("QueridoEvanHansen", "Events")'">
                 <h2>7 DEZ | 21:00</h2>
                 <img src="~/img/HansenPoster.jpeg" alt="Querido Evan Hansen">
                 <h3>Querido Evan Hansen</h3>
                 <p>Teatro Maria Matos | Lisboa</p>
             </div>
-            <div class="event" onclick="window.location.href='@Url.Action("AhAmalia", "Events")'" style="cursor: pointer;">
+            <div class="event" onclick="window.location.href='@Url.Action("AhAmalia", "Events")'">
                 <h2>17 DEZ | 14:30</h2>
                 <img src="~/img/AmaliaPoster.jpeg" alt="Ah Amalia - Living Experience">
                 <h3>Ah Amalia - Living Experience</h3>
                 <p>8 Marvila | Lisboa</p>
             </div>
-            <div class="event" onclick="window.location.href='@Url.Action("SolteiraCasadaViuvaDivorciada", "Events")'" style="cursor: pointer;">
+            <div class="event" onclick="window.location.href='@Url.Action("SolteiraCasadaViuvaDivorciada", "Events")'">
                 <h2>18 DEZ | 21:00</h2>
                 <img src="~/img/SCVDPoster.jpeg" alt="Solteira Casada Viúva Divorciada">
                 <h3>Solteira Casada Viúva Divorciada</h3>
                 <p>Teatro Armando Cortez | Lisboa</p>
             </div>
-            <div class="event" onclick="window.location.href='@Url.Action("MorteDoCorvo", "Events")'" style="cursor: pointer;">
+            <div class="event" onclick="window.location.href='@Url.Action("MorteDoCorvo", "Events")'">
                 <h2>10 JAN | 14:00</h2>
                 <img src="~/img/CorvoPoster.jpeg" alt="A Morte do Corvo">
                 <h3>A Morte do Corvo</h3>

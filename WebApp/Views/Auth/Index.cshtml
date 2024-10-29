@@ -2,19 +2,21 @@
     ViewData["Title"] = "Iniciar Sessão";
 }
 
-<div class="d-flex justify-content-center align-items-start" style="padding-top: 10vh;">
+<div class="d-flex justify-content-center" style="padding-top: 10vh;">
     <div class="w-50" style="max-width: 500px; padding: 20px;">
         <h4 class="text-center"><strong>Entra na tua conta Ticketline!</strong></h4>
-        <p class="text-center mt-3" style="font-size:14px">Ainda não tens conta? Regista-te <a href="@Url.Action("Register", "Auth")">aqui</a>!</p>
+        <p class="text-center mt-3" style="font-size: 14px;">
+            Ainda não tens conta? Regista-te <a href="@Url.Action("Register", "Auth")">aqui</a>!
+        </p>
         <form>
             <fieldset>
                 <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email">Email</label>
                 </div>
                 <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off">
-                    <label for="floatingPassword">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off">
+                    <label for="password">Password</label>
                 </div>
                 <div class="d-flex justify-content-center mt-4">
                     <button type="submit" class="btn btn-outline-dark">Iniciar sessão</button>

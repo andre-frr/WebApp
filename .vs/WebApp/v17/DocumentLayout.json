@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\buyticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\buyticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\buyticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\controllers\\buyticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\buyticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\solteiracasadaviuvadivorciada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\solteiracasadaviuvadivorciada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\queridoevanhansen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\queridoevanhansen.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\mortedocorvo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,53 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BuyTicketController.cs",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\BuyTicketController.cs",
-              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\BuyTicketController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\BuyTicketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T22:57:27.948Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:50:22.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\BuyTicket\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T21:44:03.468Z",
+              "WhenOpened": "2024-10-29T12:49:25.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pay.cshtml",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\BuyTicket\\Pay.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEAAAABrAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SolteiraCasadaViuvaDivorciada.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\SolteiraCasadaViuvaDivorciada.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T21:38:07.7Z",
+              "WhenOpened": "2024-10-29T12:48:26.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueridoEvanHansen.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\QueridoEvanHansen.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:47:31.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MorteDoCorvo.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Events\\MorteDoCorvo.cshtml",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T12:46:27.491Z",
               "EditorCaption": ""
             }
           ]

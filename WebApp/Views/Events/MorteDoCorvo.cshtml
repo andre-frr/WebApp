@@ -24,15 +24,13 @@
     }
 
         .image-wrapper img {
-            max-width: 100%;
-            height: auto;
+            width: 100%;
             border-radius: 8px;
         }
 
     .event-details h1 {
         font-size: 24px;
         font-weight: bold;
-        margin-bottom: 5px;
     }
 
     .event-classification {
@@ -43,7 +41,6 @@
     .event-notes h4 {
         font-size: 16px;
         font-weight: bold;
-        color: #333;
         margin: 8px 0;
     }
 
@@ -69,6 +66,10 @@
         .buy-button:hover {
             background-color: #0056b3;
         }
+
+    .age-note {
+        font-size: 12px;
+    }
 </style>
 
 <div class="event-container">
@@ -79,7 +80,7 @@
         <div class="event-details">
             <h1>A Morte do Corvo</h1>
             <p class="event-classification">
-                Classificação: Maiores de 18 anos <sup>1</sup><br />
+                Classificação: Maiores de 18 anos <sup>1</sup><br>
                 Tipo: Teatro Imersivo
             </p>
             <div class="event-notes">
@@ -89,19 +90,16 @@
         </div>
     </div>
     <div class="event-description">
-        <h2><b>DESCRIÇÃO</b></h2>
+        <h2><strong>DESCRIÇÃO</strong></h2>
         <p>
-            Pessoa convida o seu grande amigo Mário para o ritual de iniciação à ORDEM dos CORVOS, uma sociedade que procura o segredo da vida para além da morte. A Ordem, liderada por Edgar A. Poe, esconde-se no andar de cima da funerária Nevermore.<br />
-            <br />
-            Vários acontecimentos vão precipitar Pessoa num ciclo depressivo que terminará da pior forma. A rejeição da sua mulher Ofélia será o primeiro. O segundo, o suicídio de Mário. E o derradeiro … um profundo descrédito em si próprio.<br />
-            <br />
-            Tudo isto orquestrado por Poe, movido por uma incontrolável inveja da genialidade de Pessoa.<br />
-            <br />
+            Pessoa convida o seu grande amigo Mário para o ritual de iniciação à ORDEM dos CORVOS, uma sociedade que procura o segredo da vida para além da morte. A Ordem, liderada por Edgar A. Poe, esconde-se no andar de cima da funerária Nevermore.<br><br>
+            Vários acontecimentos vão precipitar Pessoa num ciclo depressivo que terminará da pior forma. A rejeição da sua mulher Ofélia será o primeiro. O segundo, o suicídio de Mário. E o derradeiro … um profundo descrédito em si próprio.<br><br>
+            Tudo isto orquestrado por Poe, movido por uma incontrolável inveja da genialidade de Pessoa.<br><br>
             Bem-vindos ao funeral anunciado de um dos maiores poetas de sempre.
         </p>
     </div>
     <div class="button-wrapper">
         <a href="@Url.Action("Index", "BuyTicket")" class="buy-button">COMPRAR BILHETES</a>
     </div>
-    <small style="font-size: 12px">1. Menores de 18 anos podem entrar acompanhados por um adulto.</small>
+    <small class="age-note">1. Menores de 18 anos podem entrar acompanhados por um adulto.</small>
 </div>
