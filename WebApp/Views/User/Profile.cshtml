@@ -1,3 +1,48 @@
 ﻿@{
     ViewData["Title"] = "Perfil";
 }
+
+<div style="display: flex; justify-content: center; width: 100%; padding-top: 10vh;">
+    <div style="max-width: 600px; width: 100%;">
+        <h2 style="text-align: center;"><b>Dados do Utilizador</b></h2>
+
+        <div style="margin-top: 30px;">
+            <fieldset>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nome" placeholder="John Doe" readonly>
+                    <label for="nome">Nome</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="email@email.com" readonly>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nif" placeholder="NIF" readonly>
+                    <label for="nif">NIF</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="endereco" placeholder="Rua Exemplo, 123" readonly>
+                    <label for="endereco">Endereço</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade" readonly>
+                    <label for="cidade">Cidade</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="codigoPostal" placeholder="0000-000" readonly>
+                    <label for="codigoPostal">Código Postal</label>
+                </div>
+            </fieldset>
+
+            <div class="d-flex justify-content-center mt-4">
+                <a href="@Url.Action("Index", "Home")" class="btn btn-outline-dark">Voltar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
