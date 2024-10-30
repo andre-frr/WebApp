@@ -24,13 +24,14 @@
                 <h5>Método de Pagamento</h5>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <label class="accordion-header" id="headingOne" style="display: flex; align-items: center;">
+                            <input type="radio" name="paymentMethod" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne" style="margin-right: 10px;">
+                            <button class="accordion-button collapsed" type="button">
                                 <img src="~/img/payment_Card.webp" style="width: 40px; height: auto; margin-right: 5px;" alt="Cartão de Crédito/Débito" />
                                 Cartão de Crédito/Débito
                             </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        </label>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="form-floating mb-3">
                                     <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456" required>
@@ -50,12 +51,13 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <label class="accordion-header" id="headingTwo" style="display: flex; align-items: center;">
+                            <input type="radio" name="paymentMethod" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-controls="collapseTwo" style="margin-right: 10px;">
+                            <button class="accordion-button collapsed" type="button">
                                 <img src="~/img/payment_Mbway.webp" style="width: 40px; height: auto; margin-right: 5px;" alt="MBWay" />
                                 MBWay
                             </button>
-                        </h2>
+                        </label>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <div class="form-floating mb-3">
@@ -66,12 +68,13 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <label class="accordion-header" id="headingThree" style="display: flex; align-items: center;">
+                            <input type="radio" name="paymentMethod" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-controls="collapseThree" style="margin-right: 10px;">
+                            <button class="accordion-button collapsed" type="button">
                                 <img src="~/img/payment_multibanco.webp" style="width: 40px; height: auto; margin-right: 5px;" alt="Multibanco" />
                                 Multibanco
                             </button>
-                        </h2>
+                        </label>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 Será gerada uma referência MB válida por 8 horas. O envio será feito quando for confirmado o pagamento.

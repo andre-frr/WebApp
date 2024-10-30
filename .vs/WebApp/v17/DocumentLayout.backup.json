@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\ticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\ticket\\pay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:09:59.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pay.cshtml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\Pay.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Ticket\\Pay.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\Pay.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Ticket\\Pay.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T14:00:50.949Z",
+              "EditorCaption": ""
             }
           ]
         }
