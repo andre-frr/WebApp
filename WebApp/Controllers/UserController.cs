@@ -2,7 +2,7 @@
 
 namespace WebApp.Controllers
 {
-    public class AuthController : Controller
+    public class UserController : Controller
     {
         public IActionResult Index()
         {

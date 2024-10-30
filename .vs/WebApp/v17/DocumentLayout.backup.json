@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\ticket\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\ticket\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Ticket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Ticket\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T16:08:18.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MyTickets.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\MyTickets.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Ticket\\MyTickets.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Ticket\\MyTickets.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Ticket\\MyTickets.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T14:58:29.57Z",
-              "EditorCaption": ""
             }
           ]
         }

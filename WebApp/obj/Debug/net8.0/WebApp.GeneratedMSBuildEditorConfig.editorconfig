@@ -18,14 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\WebApp-TI_Grupo3\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Auth/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Auth/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/AhAmalia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEFoQW1hbGlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +68,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Ticket/Pay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XFBheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/_ViewImports.cshtml]
