@@ -2,47 +2,67 @@
     ViewData["Title"] = "Perfil";
 }
 
-<div style="display: flex; justify-content: center; width: 100%; padding-top: 10vh;">
-    <div style="max-width: 600px; width: 100%;">
-        <h2 style="text-align: center;"><b>Dados do Utilizador</b></h2>
-
-        <div style="margin-top: 30px;">
-            <fieldset>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="nome" placeholder="John Doe" readonly>
-                    <label for="nome">Nome</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="email@email.com" readonly>
-                    <label for="email">Email</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="nif" placeholder="NIF" readonly>
-                    <label for="nif">NIF</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="endereco" placeholder="Rua Exemplo, 123" readonly>
-                    <label for="endereco">Endereço</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="cidade" placeholder="Cidade" readonly>
-                    <label for="cidade">Cidade</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="codigoPostal" placeholder="0000-000" readonly>
-                    <label for="codigoPostal">Código Postal</label>
-                </div>
-            </fieldset>
-
-            <div class="d-flex justify-content-center mt-4">
-                <a href="@Url.Action("Index", "Home")" class="btn btn-outline-dark">Voltar</a>
+<div class="profile-container">
+    <h2 class="section-title text-center">Dados Pessoais</h2>
+    <div class="profile-section mx-auto p-3 rounded" style="max-width: 600px; background-color: #b3d1f5;">
+        <h3 class="text-center">Dados da Minha Conta</h3>
+        <div class="row">
+            <div class="col-6 form-floating mb-3">
+                <input type="text" class="form-control form-control-sm" id="name" required>
+                <label for="name">Nome</label>
+            </div>
+            <div class="col-6 form-floating mb-3">
+                <input type="text" class="form-control form-control-sm" id="apelido">
+                <label for="apelido">Apelido</label>
             </div>
         </div>
+        <div class="row mt-2">
+            <div class="col-6 form-floating mb-3">
+                <input type="email" class="form-control form-control-sm" id="email">
+                <label for="email">E-mail</label>
+            </div>
+            <div class="col-6 form-floating mb-3">
+                <input type="text" class="form-control form-control-sm" id="dataNascimento">
+                <label for="dataNascimento">Data de Nascimento</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-outline-dark mt-2" onclick="alert('Alterações nos Dados da Minha Conta guardadas!')">Guardar</button>
+        </div>
+    </div>
+    <div class="profile-section mx-auto p-3 mt-4 rounded" style="max-width: 600px; background-color: #b3d1f5;">
+        <h3 class="text-center">Alterar Password</h3>
+        <div class="row">
+            <div class="col-12 form-floating mb-3">
+                <input type="password" class="form-control form-control-sm" id="passwordAtual">
+                <label for="passwordAtual">Password Atual</label>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-6 form-floating mb-3">
+                <input type="password" class="form-control form-control-sm" id="novaPassword">
+                <label for="novaPassword">Nova Password</label>
+            </div>
+            <div class="col-6 form-floating mb-3">
+                <input type="password" class="form-control form-control-sm" id="confirmarPassword">
+                <label for="confirmarPassword">Confirmar Nova Password</label>
+            </div>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-outline-dark mt-2" onclick="alert('Password alterada com sucesso!')">Alterar Password</button>
+        </div>
+    </div>
+    <div class="profile-section mx-auto p-3 mt-4 rounded" style="max-width: 600px; background-color: #b3d1f5;">
+        <h3 class="text-center">Moradas de Entrega e de Faturação</h3>
+        <div class="address-box">
+            <p><b>Nome:</b> Maria Silva</p>
+            <p><b>Endereço:</b> Avenida da Liberdade, nº50, 3º Esq.</p>
+            <p><b>Código Postal:</b> 1250-140</p>
+            <p><b>Cidade:</b> Lisboa</p>
+            <p><b>País:</b> PT</p>
+            <p><b>Telefone:</b> 912345678</p>
+            <p><b>NIF:</b> 123456789</p>
+        </div>
+        <a href="" class="add-address-link">Adicionar nova morada</a>
     </div>
 </div>
-
