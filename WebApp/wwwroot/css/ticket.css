@@ -1,0 +1,21 @@
+﻿.table td,
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-danger {
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+    .btn-danger:hover {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color: white;
+    }
+
+h2 {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 30px;
+}

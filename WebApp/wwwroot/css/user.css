@@ -1,0 +1,60 @@
+﻿.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 7vh auto;
+    margin-bottom: 20px;
+}
+
+.account-details {
+    background-color: #D1D9E6;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 0 10px;
+    color: black;
+}
+
+    .account-details h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+.form-group {
+    margin-bottom: 10px;
+    flex: 1;
+}
+
+    .form-group label {
+        display: block;
+        margin-left: 5px;
+        font-size: 0.9em;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+    }
+
+.form-pair {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    width: 190px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #212529;
+    color: white;
+    margin-left: auto;
+    display: block;
+}
+
+    button:hover {
+        background-color: #485159;
+    }

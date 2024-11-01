@@ -2,28 +2,7 @@
     ViewData["Title"] = "Os meus bilhetes";
 }
 
-<style>
-    .table td, .table th {
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .btn-danger {
-        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-    }
-
-        .btn-danger:hover {
-            background-color: #dc3545;
-            border-color: #dc3545;
-            color: white;
-        }
-
-    h2 {
-        text-align: center;
-        margin-top: 5vh;
-        margin-bottom: 30px;
-    }
-</style>
+<link rel="stylesheet" href="~/css/ticket.css">
 
 <h2><strong>Os meus bilhetes</strong></h2>
 
@@ -45,5 +24,6 @@
             <td><a href="#" class="btn btn-outline-dark">Download</a></td>
             <td><a href="#" class="btn btn-danger">Cancelar</a></td>
         </tr>
+        <!-- Outros bilhetes podem ser adicionados aqui -->
     </tbody>
 </table>
