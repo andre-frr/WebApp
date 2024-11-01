@@ -2,13 +2,121 @@
     ViewData["Title"] = "Perfil";
 }
 
-<div class="profile-container">
+<style>
+    .main {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 7vh auto;
+    }
+
+    .account-details {
+        background-color: #D1D9E6;
+        padding: 15px;
+        border-radius: 8px;
+        flex: 1;
+        margin: 0 10px;
+        color: black;
+    }
+
+        .account-details h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+    .form-group {
+        margin-bottom: 10px;
+        flex: 1;
+    }
+
+        .form-group label {
+            display: block;
+            margin-left: 5px;
+            font-size: 0.9em;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+    .form-pair {
+        display: flex;
+        gap: 10px;
+    }
+
+    button {
+        width: 35%;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        background-color: #333;
+        color: white;
+        margin-left: auto;
+        display: block;
+    }
+
+        button:hover {
+            background-color: #555;
+        }
+</style>
+
+<div class="main">
+    <div class="account-details">
+        <h2>Dados da Minha Conta</h2>
+        <form style="display: flex; flex-direction: column;">
+            <div class="form-pair">
+                <div class="form-group">
+                    <label for="first-name">Nome</label>
+                    <input type="text" id="first-name" placeholder="André" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Apelido</label>
+                    <input type="text" id="last-name" placeholder="Ferreira" required>
+                </div>
+            </div>
+            <div class="form-pair">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="af48348@gmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="birthdate">Data de Nascimento</label>
+                    <input type="date" id="birthdate" required>
+                </div>
+            </div>
+            <button type="submit">GUARDAR</button>
+        </form>
+    </div>
+
+    <div class="account-details">
+        <h2>Alterar Password</h2>
+        <form style="display: flex; flex-direction: column;">
+            <div class="form-group">
+                <input type="password" id="current-password" placeholder="Password Atual" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="new-password" placeholder="Password Nova" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirm-password" placeholder="Confirmar Password Nova" required>
+            </div>
+            <button type="submit">GUARDAR</button>
+        </form>
+    </div>
+</div>
+
+
+@* <div class="profile-container">
     <h2 class="section-title text-center">Dados Pessoais</h2>
     <div class="profile-section mx-auto p-3 rounded" style="max-width: 600px; background-color: #b3d1f5;">
-        <h3 class="text-center">Dados da Minha Conta</h3>
+        <h3>Dados da Minha Conta</h3>
         <div class="row">
             <div class="col-6 form-floating mb-3">
-                <input type="text" class="form-control form-control-sm" id="name" required>
+                <input type="text" class="form-control form-control-sm" id="name">
                 <label for="name">Nome</label>
             </div>
             <div class="col-6 form-floating mb-3">
@@ -65,4 +173,4 @@
         </div>
         <a href="" class="add-address-link">Adicionar nova morada</a>
     </div>
-</div>
+</div> *@
