@@ -2,17 +2,13 @@
 
 namespace WebApp.Controllers
 {
-    public class TicketController : Controller
+    public class CheckoutController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Pay()
-        {
-            return View();
-        }
-        public IActionResult MyTickets()
+        public IActionResult Cart()
         {
             return View();
         }

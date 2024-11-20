@@ -16,9 +16,12 @@
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TicketLine</a>
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav me-auto"></ul>
-                    <a class="btn btn-outline-light me-2" href="@Url.Action("MyTickets", "Ticket")">Os meus bilhetes</a>
-                    <a class="btn btn-secondary my-2 my-sm-0" href="@Url.Action("Index", "User")">
+                    <a class="btn btn-outline-primary me-2" href="@Url.Action("Index", "MyTickets")">Os meus bilhetes</a>
+                    <a class="btn btn-outline-primary me-2" href="@Url.Action("Index", "User")">
                         <img src="~/img/user-icon.svg" alt="User Icon" />
+                    </a>
+                    <a class="btn btn-outline-primary me-2" data-bs-toggle="offcanvas" href="#cartOffcanvas" role="button" aria-controls="cartOffcanvas">
+                        <img src="~/img/cart.svg" alt="Cart" />
                     </a>
                 </div>
             </div>
@@ -29,6 +32,34 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+    </div>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 id="cartOffcanvasLabel">Carrinho</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Evento 1
+                    <span class="badge bg-primary rounded-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Evento 2
+                    <span class="badge bg-primary rounded-pill">1</span>
+                </li>
+            </ul>
+            <hr />
+            <div class="d-flex justify-content-between">
+                <strong>Total:</strong>
+                <span>€30.00</span>
+            </div>
+            <div class="d-flex gap-3" style="padding-top:15px">
+                <a class="btn btn-outline-info text-white w-50" href="@Url.Action("Cart", "Checkout")">VER E EDITAR</a>
+                <a class="btn btn-outline-success text-white w-50" href="@Url.Action("Index","Checkout")">FINALIZAR</a>
+            </div>  
+        </div>
     </div>
 
     <audio id="bg-audio" autoplay loop>
@@ -63,8 +94,8 @@
 
     <footer class="border-top footer text-muted text-center">
         <div class="container">
-            &copy; 2024 TI (Grupo 3) • 
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a> • 
+            &copy; 2024 TI (Grupo 3) •
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de Privacidade</a> •
             <a asp-area="" asp-controller="Home" asp-action="About">Quem somos</a>
         </div>
     </footer>
