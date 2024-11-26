@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\asus\\source\\repos\\webapp-ti_grupo3\\webapp\\models\\dtos\\utilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\dtos\\utilizadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\appsettings.json",
-              "RelativeToolTip": "WebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T14:00:39.845Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -52,6 +39,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "utilizadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\DTOs\\utilizadorDTO.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\DTOs\\utilizadorDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\DTOs\\utilizadorDTO.cs",
+              "RelativeToolTip": "WebApp\\Models\\DTOs\\utilizadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T15:03:53.915Z",
+              "EditorCaption": ""
             }
           ]
         }

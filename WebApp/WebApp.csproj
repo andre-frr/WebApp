@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\ViewModels\" />
-    <Folder Include="Services\" />
+    <Folder Include="Models\ViewModels\Checkout\" />
+    <Folder Include="Models\ViewModels\Events\" />
+    <Folder Include="Models\ViewModels\Home\" />
+    <Folder Include="Models\ViewModels\MyTickets\" />
   </ItemGroup>
 
 </Project>
