@@ -1,5 +1,6 @@
 ﻿create table evento (
     evento_id int primary key identity(1,1),
+    imagem varchar(30) not null,
     titulo varchar(100) not null,
     tipo varchar(30),
     classificacao varchar(30),
