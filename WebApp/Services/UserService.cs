@@ -14,7 +14,7 @@ namespace WebApp.Services
         {
             _myOptions = myOptions.Value;
         }
-        public ExecutionResult<utilizadorDTO> Insert(utilizadorDTO dto, string user)
+        public ExecutionResult<utilizadorDTO> Insert(utilizadorDTO dto)
         {
             int result;
 
