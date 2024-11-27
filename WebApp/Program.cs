@@ -6,13 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("TicketlineConnection");
 
 builder.Services.AddHttpContextAccessor();
-
 builder.Services.AddControllersWithViews();
 
 builder.Services.Configure<MyOptions>(myOptions =>
-    {
-        myOptions.TicketlineConnection = connectionString;
-    });
+{
+    myOptions.TicketlineConnection = connectionString;
+});
 
 var app = builder.Build();
 
