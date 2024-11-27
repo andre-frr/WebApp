@@ -2,30 +2,36 @@
     ViewData["Title"] = "Criar Conta";
 }
 
+@model WebApp.Models.ViewModels.User.UserRegisterViewModel
+
 <div class="d-flex justify-content-center" style="padding-top: 10vh;">
     <div class="w-50" style="max-width: 500px; padding: 20px;">
         <h4 class="text-center"><strong>Ainda não tens conta? Regista-te agora!</strong></h4>
 
-        <form class="mt-3">
+        <form asp-action="Register" method="post" class="mt-3">
             <div class="d-flex gap-2 mb-3">
                 <div class="form-floating flex-fill">
-                    <input type="text" class="form-control" id="firstName" placeholder="" required>
+                    <input asp-for="nome" type="text" class="form-control" id="firstName" placeholder="" required>
                     <label for="firstName">Nome</label>
+                    <span asp-validation-for="nome" class="text-danger"></span>
                 </div>
                 <div class="form-floating flex-fill">
-                    <input type="text" class="form-control" id="surname" placeholder="" required>
+                    <input asp-for="apelido" type="text" class="form-control" id="surname" placeholder="" required>
                     <label for="surname">Apelido</label>
+                    <span asp-validation-for="apelido" class="text-danger"></span>
                 </div>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" placeholder="" required>
+                <input asp-for="email" type="email" class="form-control" id="email" placeholder="" required>
                 <label for="email">Email</label>
+                <span asp-validation-for="email" class="text-danger"></span>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" required>
+                <input asp-for="pass" type="password" class="form-control" id="password" placeholder="Password" autocomplete="off" required>
                 <label for="password">Password</label>
+                <span asp-validation-for="pass" class="text-danger"></span>
             </div>
 
             <div class="text-center mt-4">

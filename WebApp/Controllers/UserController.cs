@@ -33,14 +33,10 @@ namespace WebApp.Controllers
         {
             return View();
         }
-
-
         private UserProfileViewModel GetProfileViewModel()
         {
             UserProfileViewModel model = new UserProfileViewModel();
-            model.utilizador =
-
-
+            return model;
         }
     }
 }
