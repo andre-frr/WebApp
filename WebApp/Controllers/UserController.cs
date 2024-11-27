@@ -7,7 +7,7 @@ namespace WebApp.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
@@ -17,6 +17,7 @@ namespace WebApp.Controllers
 
             return View(model);
         }
+        [HttpPost]
         public IActionResult Register(UserRegisterViewModel model)
         {
             utilizadorDTO dto = new utilizadorDTO();
@@ -25,12 +26,21 @@ namespace WebApp.Controllers
             dto.email = model.email;
             dto.pass = model.pass;
 
-            return View();
+            return View("Profile", GetProfileViewModel());
 
         }
         public IActionResult Profile()
         {
             return View();
+        }
+
+
+        private UserProfileViewModel GetProfileViewModel()
+        {
+            UserProfileViewModel model = new UserProfileViewModel();
+            model.utilizador =
+
+
         }
     }
 }
