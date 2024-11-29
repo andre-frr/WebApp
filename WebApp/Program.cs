@@ -1,16 +1,17 @@
 using WebApp.Helpers;
+using WebApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("TicketlineConnection");
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllersWithViews();
 
 builder.Services.Configure<MyOptions>(myOptions =>
 {
-    myOptions.TicketlineConnection = connectionString;
+    myOptions.ConnString = connectionString;
 });
 
 var app = builder.Build();

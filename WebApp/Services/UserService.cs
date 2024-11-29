@@ -24,7 +24,7 @@ namespace WebApp.Services
             parameters.Add("@email", dto.email, DbType.String, ParameterDirection.Input);
             parameters.Add("@pass", dto.pass, DbType.String, ParameterDirection.Input);
 
-            using (IDbConnection conn = new SqlConnection(_myOptions.TicketlineConnection))
+            using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
                 result = conn.Execute(Constants.sp_utilizador_insert, parameters, commandType: CommandType.StoredProcedure);
             }

@@ -2,6 +2,6 @@
 {
     public class MyOptions
     {
-        public string TicketlineConnection { get; set; }
+        public string ConnString { get; set; }
     }
 }
