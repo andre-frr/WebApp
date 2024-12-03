@@ -68,5 +68,6 @@
     <Build Include="Tables\item_carrinho.sql" />
     <Build Include="Tables\utilizador.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_insert.sql" />
+    <Build Include="StoredProcedures\utilizador\sp_utilizador_get.sql" />
   </ItemGroup>
 </Project>
