@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\ASUS\source\repos\WebApp-TI_Grupo3\WebApp\
+build_property.ProjectDir = C:\Users\DIOGO\OneDrive - Instituto Politécnico de Santarém\Uni\Licenciatura\1ºAno\1ºSemestre\TI\Projetos\WebApp-TI_Grupo3\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\WebApp-TI_Grupo3\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\DIOGO\OneDrive - Instituto Politécnico de Santarém\Uni\Licenciatura\1ºAno\1ºSemestre\TI\Projetos\WebApp-TI_Grupo3\WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Checkout/Cart.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Checkout/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Checkout/Index.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Checkout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/AhAmalia.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Events/AhAmalia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEFoQW1hbGlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/FicaComigoEstaNoite.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Events/FicaComigoEstaNoite.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEZpY2FDb21pZ29Fc3RhTm9pdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/MorteDoCorvo.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Events/MorteDoCorvo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXE1vcnRlRG9Db3J2by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/QueridoEvanHansen.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Events/QueridoEvanHansen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFF1ZXJpZG9FdmFuSGFuc2VuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Events/SolteiraCasadaViuvaDivorciada.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Events/SolteiraCasadaViuvaDivorciada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFNvbHRlaXJhQ2FzYWRhVml1dmFEaXZvcmNpYWRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Home/About.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Home/Index.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Home/Privacy.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/MyTickets/Index.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/MyTickets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlUaWNrZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Shared/Error.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/User/Login.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/User/Profile.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/User/Register.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/_ViewImports.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/_ViewStart.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/WebApp-TI_Grupo3/WebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/DIOGO/OneDrive - Instituto Politécnico de Santarém/Uni/Licenciatura/1ºAno/1ºSemestre/TI/Projetos/WebApp-TI_Grupo3/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7882z672yd
