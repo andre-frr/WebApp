@@ -6,7 +6,7 @@
     pass varchar(30) not null,
     dt_nascimento date,
     morada varchar(100),
-    nif int unique check (nif between 100000000 and 999999999),
+    nif int check (nif between 100000000 and 999999999),
     cidade varchar(50),
     cod_postal char(8),
     created_at datetime2 default sysdatetime(),
