@@ -8,7 +8,7 @@
     morada varchar(100),
     nif int check (nif between 100000000 and 999999999),
     cidade varchar(50),
-    cod_postal varchar(8),
+    cod_postal char(8),
     created_at datetime2 default sysdatetime(),
     modified_at datetime2
 );

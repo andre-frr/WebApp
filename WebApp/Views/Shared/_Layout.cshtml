@@ -1,7 +1,4 @@
-﻿@using Microsoft.AspNetCore.Authentication;
-@using Microsoft.AspNetCore.Authorization;
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-PT">
 <head>
     <meta charset="utf-8" />
@@ -20,31 +17,9 @@
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav me-auto"></ul>
                     <a class="btn btn-outline-primary me-2" href="@Url.Action("Index", "MyTickets")">Os meus bilhetes</a>
-
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <div class="btn-group me-2">
-                            <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="~/img/user-icon.svg" alt="User Icon" />
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="@Url.Action("Profile", "User")">Perfil</a></li>
-                                <li>
-                                    <form method="post" action="@Url.Action("Logout", "User")">
-                                        @Html.AntiForgeryToken()
-                                        <button type="submit" class="dropdown-item">Terminar sessão</button>
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
-                    }
-                    else
-                    {
-                        <a class="btn btn-outline-primary me-2" href="@Url.Action("Login", "User")">
-                            <img src="~/img/user-icon.svg" alt="User Icon" />
-                        </a>
-                    }
-
+                    <a class="btn btn-outline-primary me-2" href="@Url.Action("Login", "User")">
+                        <img src="~/img/user-icon.svg" alt="User Icon" />
+                    </a>
                     <a class="btn btn-outline-primary me-2" data-bs-toggle="offcanvas" href="#cartOffcanvas" role="button" aria-controls="cartOffcanvas">
                         <img src="~/img/cart.svg" alt="Cart" />
                     </a>
@@ -83,7 +58,7 @@
             <div class="d-flex gap-3" style="padding-top:15px">
                 <a class="btn btn-outline-info text-white w-50" href="@Url.Action("Cart", "Checkout")">VER E EDITAR</a>
                 <a class="btn btn-outline-success text-white w-50" href="@Url.Action("Index","Checkout")">FINALIZAR</a>
-            </div>
+            </div>  
         </div>
     </div>
 

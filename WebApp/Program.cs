@@ -1,6 +1,5 @@
 using WebApp.Helpers;
 using WebApp.Services;
-using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,18 +13,6 @@ builder.Services.Configure<MyOptions>(myOptions =>
 {
     myOptions.ConnString = connectionString;
 });
-
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie(options =>
-    {
-        options.LoginPath = "/User/Login";
-        options.LogoutPath = "/User/Logout";
-        options.Cookie.Name = "TicketLineCookie";
-        options.Cookie.HttpOnly = true;
-        options.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
-        options.SlidingExpiration = true;
-        options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-    });
 
 var app = builder.Build();
 
@@ -42,7 +29,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

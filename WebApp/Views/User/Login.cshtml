@@ -1,6 +1,4 @@
-﻿@model WebApp.Models.ViewModels.User.UserLoginViewModel
-
-@{
+﻿@{
     ViewData["Title"] = "Iniciar sessão";
 }
 
@@ -12,23 +10,16 @@
             Ainda não tens conta? Regista-te <a href="@Url.Action("Register", "User")">aqui</a>!
         </p>
 
-        <form asp-action="Login" method="post">
+        <form>
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="email" name="email" placeholder="" asp-for="email" required>
+                <input type="email" class="form-control" id="email" placeholder="" required>
                 <label for="email">Email</label>
             </div>
 
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="pass" name="pass" placeholder="" asp-for="pass" autocomplete="off" required>
-                <label for="pass">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="" autocomplete="off" required>
+                <label for="password">Password</label>
             </div>
-
-            @if (ViewData["ErrorMessage"] != null)
-            {
-                <div class="text-danger text-center">
-                    <p>@ViewData["ErrorMessage"]</p>
-                </div>
-            }
 
             <div class="text-center mt-4">
                 <button type="submit" class="btn btn-outline-dark">Iniciar sessão</button>
