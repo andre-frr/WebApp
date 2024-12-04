@@ -33,6 +33,7 @@ namespace WebApp.Services
 
             return new ExecutionResultFactory<utilizadorDTO>().GetSuccessExecutionResult(dto, string.Empty);
         }
+
         public ExecutionResult<List<utilizadorDTO>> Get(string email, string pass)
         {
             List<utilizadorDTO> listc = new List<utilizadorDTO>();
