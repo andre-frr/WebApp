@@ -59,7 +59,6 @@
     <Folder Include="Tables" />
     <Folder Include="StoredProcedures" />
     <Folder Include="StoredProcedures\utilizador" />
-    <Folder Include="StoredProcedures\eventos" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\bilhete.sql" />
@@ -69,6 +68,5 @@
     <Build Include="Tables\item_carrinho.sql" />
     <Build Include="Tables\utilizador.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_insert.sql" />
-    <Build Include="StoredProcedures\eventos\sp_evento_get.sql" />
   </ItemGroup>
 </Project>
