@@ -5,28 +5,28 @@ using System.Data;
 using WebApp.Helpers;
 using WebApp.Models.DTOs;
 
-namespace WebApp.Services
-{
-    public class HomeService
+    namespace WebApp.Services
     {
-        private readonly MyOptions _myOptions;
-        public HomeService(IOptions<MyOptions> myOptions)
+        public class HomeService
         {
-            _myOptions = myOptions.Value;
-        }
-        public ExecutionResult<eventoDTO> Get(int id)
-        {
-            eventoDTO evento = null;
-
-            DynamicParameters parameters = new DynamicParameters();
-            parameters.Add("@id", id, DbType.Int32, ParameterDirection.Input);
-
-            using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
+            private readonly MyOptions _myOptions;
+            public HomeService(IOptions<MyOptions> myOptions)
             {
-                evento = conn.QueryFirstOrDefault<eventoDTO>(Constants.sp_evento_get,parameters,commandType: CommandType.StoredProcedure);
+                _myOptions = myOptions.Value;
             }
-             return new ExecutionResultFactory<utilizadorDTO>().GetSuccessExecutionResult(id, string.Empty);
+            public ExecutionResult<eventoDTO> Get(int id)
+            {
+                eventoDTO evento = null;
+
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@id", id, DbType.Int32, ParameterDirection.Input);
+
+                using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
+                {
+                    evento = conn.QueryFirstOrDefault<eventoDTO>(Constants.sp_evento_get,parameters,commandType: CommandType.StoredProcedure);
+                }
+                 return new ExecutionResultFactory<eventoDTO>().GetSuccessExecutionResult(id, int.Empty);
+            }
         }
     }
-}
 

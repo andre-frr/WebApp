@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_evento_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_eventos_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_eventos_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\onedrive - instituto polit\u00E9cnico de santar\u00E9m\\uni\\licenciatura\\1\u00BAano\\1\u00BAsemestre\\ti\\projetos\\webapp-ti_grupo3\\webapp\\models\\viewmodels\\user\\userregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,8 +47,8 @@
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_eventos_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_eventos_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_evento_get.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +86,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Helpers\\Constants.cs",
+              "RelativeDocumentMoniker": "WebApp\\Helpers\\Constants.cs",
+              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Helpers\\Constants.cs",
+              "RelativeToolTip": "WebApp\\Helpers\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:55:33.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "eventoDTO.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Models\\DTOs\\eventoDTO.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\DTOs\\eventoDTO.cs",
@@ -90,16 +107,15 @@
               "RelativeToolTip": "WebApp\\Models\\DTOs\\eventoDTO.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T15:03:12.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T15:03:12.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "sp_eventos_get.sql ",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_eventos_get.sql",
-              "RelativeDocumentMoniker": "Database\\StoredProcedures\\eventos\\sp_eventos_get.sql",
-              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_eventos_get.sql\r\n(localdb)\\ProjectModels.Database\r\n(LAPTOP-DIOGO\\DIOGO)",
+              "DocumentIndex": 0,
+              "Title": "sp_evento_get.sql ",
+              "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get.sql",
+              "RelativeDocumentMoniker": "Database\\StoredProcedures\\eventos\\sp_evento_get.sql",
+              "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get.sql\r\n(localdb)\\ProjectModels.Database\r\n(LAPTOP-DIOGO\\DIOGO)",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2024-12-03T14:59:37.829Z",
               "EditorCaption": ""
@@ -112,14 +128,14 @@
               "RelativeDocumentMoniker": "WebApp\\Services\\HomeService.cs",
               "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Services\\HomeService.cs",
               "RelativeToolTip": "WebApp\\Services\\HomeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:49:34.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeIndexViewModel.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
@@ -127,12 +143,11 @@
               "RelativeToolTip": "WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:48:20.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:48:20.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\User\\Register.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\User\\Register.cshtml",
@@ -145,20 +160,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "WebApp\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Services\\UserService.cs",
               "RelativeToolTip": "WebApp\\Services\\UserService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:34:52.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserRegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\User\\UserRegisterViewModel.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\User\\UserRegisterViewModel.cs",
@@ -166,12 +181,11 @@
               "RelativeToolTip": "WebApp\\Models\\ViewModels\\User\\UserRegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:34:49.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:34:49.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
@@ -179,12 +193,11 @@
               "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-03T14:50:23.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:50:23.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -192,12 +205,11 @@
               "RelativeToolTip": "WebApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:52:34.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:52:34.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\OneDrive - Instituto Polit\u00E9cnico de Santar\u00E9m\\Uni\\Licenciatura\\1\u00BAAno\\1\u00BASemestre\\TI\\Projetos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\UserController.cs",
@@ -205,8 +217,7 @@
               "RelativeToolTip": "WebApp\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T14:33:30.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T14:33:30.296Z"
             }
           ]
         }
