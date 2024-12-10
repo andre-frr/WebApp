@@ -54,11 +54,10 @@ namespace WebApp.Controllers
             }
 
             var claims = new List<Claim>
-        {
-            new Claim(ClaimTypes.Name, user.nome),
-            new Claim(ClaimTypes.Email, user.email),
-            new Claim("UserID", user.userID.ToString()) // Ensure userID is stored as a string for claims
-        };
+            {
+                new Claim(ClaimTypes.Email, user.email),
+                new Claim("UserID", user.userID.ToString())
+            };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
@@ -109,23 +108,23 @@ namespace WebApp.Controllers
         private UserProfileViewModel GetProfileViewModel()
         {
             var user = _httpContextAccessor.HttpContext.User;
-            var userIdClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+            var userIDClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
 
-            if (string.IsNullOrEmpty(userIdClaim))
+            if (string.IsNullOrEmpty(userIDClaim))
             {
-                throw new Exception("User ID not found in claims.");
+                throw new Exception("ID não encontrado.");
             }
 
-            if (!int.TryParse(userIdClaim, out int userId))
+            if (!int.TryParse(userIDClaim, out int userID))
             {
-                throw new Exception("Invalid User ID format.");
+                throw new Exception("Formato Inválido.");
             }
 
-            var dados = _userService.GetUserById(userId);
+            var dados = _userService.GetUserById(userID);
 
             if (dados == null)
             {
-                throw new Exception("User not found in the database.");
+                throw new Exception("Utilizador não está na base de dados.");
             }
 
             return new UserProfileViewModel

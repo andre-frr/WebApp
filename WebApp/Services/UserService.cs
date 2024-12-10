@@ -10,6 +10,7 @@ namespace WebApp.Services
     public class UserService
     {
         private readonly MyOptions _myOptions;
+
         public UserService(IOptions<MyOptions> myOptions)
         {
             _myOptions = myOptions.Value;
@@ -60,7 +61,7 @@ namespace WebApp.Services
             utilizadorDTO user = null;
 
             DynamicParameters parameters = new DynamicParameters();
-            parameters.Add("@userId", userID, DbType.String, ParameterDirection.Input);
+            parameters.Add("@userID", userID, DbType.Int32, ParameterDirection.Input);
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
