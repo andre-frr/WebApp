@@ -69,5 +69,6 @@
     <Build Include="Tables\utilizador.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_insert.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_get.sql" />
+    <Build Include="StoredProcedures\utilizador\sp_utilizador_getById.sql" />
   </ItemGroup>
 </Project>

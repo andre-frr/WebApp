@@ -2,7 +2,6 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
 using System.Data;
-using System.Data.Common;
 using WebApp.Helpers;
 using WebApp.Models.DTOs;
 
@@ -54,6 +53,21 @@ namespace WebApp.Services
             }
 
             return new ExecutionResultFactory<List<utilizadorDTO>>().GetSuccessExecutionResult(listc, listc.Any() ? string.Empty : "No data found");
+        }
+
+        public utilizadorDTO GetUserById(int userID)
+        {
+            utilizadorDTO user = null;
+
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("@userId", userID, DbType.String, ParameterDirection.Input);
+
+            using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
+            {
+                user = conn.QueryFirstOrDefault<utilizadorDTO>(Constants.sp_utilizador_getById, parameters, commandType: CommandType.StoredProcedure);
+            }
+
+            return user;
         }
     }
 }

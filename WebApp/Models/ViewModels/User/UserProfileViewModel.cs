@@ -10,6 +10,6 @@
         public string morada { get; set; }
         public int nif { get; set; }
         public string cidade { get; set; }
-        public char cod_postal { get; set; }
+        public string? cod_postal { get; set; }
     }
 }

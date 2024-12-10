@@ -1,13 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using WebApp.Models.ViewModels.User;
-using WebApp.Models.DTOs;
-using WebApp.Services;
-using Microsoft.Extensions.Options;
-using WebApp.Helpers;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using System.Security.Claims;
+using WebApp.Helpers;
+using WebApp.Models.DTOs;
+using WebApp.Models.ViewModels.User;
+using WebApp.Services;
 
 namespace WebApp.Controllers
 {
@@ -54,11 +54,11 @@ namespace WebApp.Controllers
             }
 
             var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.nome),
-                new Claim(ClaimTypes.Email, user.email),
-                new Claim("UserID", user.userID.ToString())
-            };
+        {
+            new Claim(ClaimTypes.Name, user.nome),
+            new Claim(ClaimTypes.Email, user.email),
+            new Claim("UserID", user.userID.ToString()) // Ensure userID is stored as a string for claims
+        };
 
             var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
@@ -109,10 +109,35 @@ namespace WebApp.Controllers
         private UserProfileViewModel GetProfileViewModel()
         {
             var user = _httpContextAccessor.HttpContext.User;
+            var userIdClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+
+            if (string.IsNullOrEmpty(userIdClaim))
+            {
+                throw new Exception("User ID not found in claims.");
+            }
+
+            if (!int.TryParse(userIdClaim, out int userId))
+            {
+                throw new Exception("Invalid User ID format.");
+            }
+
+            var dados = _userService.GetUserById(userId);
+
+            if (dados == null)
+            {
+                throw new Exception("User not found in the database.");
+            }
+
             return new UserProfileViewModel
             {
-                nome = user.Identity?.Name,
-                email = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value
+                email = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value,
+                nome = dados.nome,
+                apelido = dados.apelido,
+                dt_nascimento = dados.dt_nascimento,
+                morada = dados.morada,
+                nif = dados.nif,
+                cidade = dados.cidade,
+                cod_postal = dados.cod_postal
             };
         }
 
