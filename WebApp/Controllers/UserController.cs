@@ -106,14 +106,6 @@ namespace WebApp.Controllers
             return View(GetProfileViewModel());
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Home");
-        }
-
         private UserProfileViewModel GetProfileViewModel()
         {
             var user = _httpContextAccessor.HttpContext.User;
@@ -122,6 +114,14 @@ namespace WebApp.Controllers
                 nome = user.Identity?.Name,
                 email = user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)?.Value
             };
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home");
         }
     }
 }
