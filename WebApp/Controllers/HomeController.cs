@@ -1,37 +1,28 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using WebApp.Models;
+using Microsoft.Extensions.Options;
+using WebApp.Helpers;
+using WebApp.Models.ViewModels.Home;
+using WebApp.Services;
 
 namespace WebApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly HomeService _homeService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IOptions<MyOptions> myOptions)
         {
-            _logger = logger;
+            _homeService = new HomeService(myOptions);
         }
-
         public IActionResult Index()
         {
-            return View();
-        }
+            var eventos = _homeService.GetEventos();
+            var viewModel = new HomeIndexViewModel
+            {
+                Eventos = eventos
+            };
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult About()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(viewModel);
         }
     }
 }
