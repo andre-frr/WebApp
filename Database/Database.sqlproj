@@ -71,5 +71,8 @@
     <Build Include="StoredProcedures\utilizador\sp_utilizador_insert.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_get.sql" />
     <Build Include="StoredProcedures\eventos\sp_evento_get.sql" />
+    <Build Include="StoredProcedures\utilizador\sp_utilizador_getById.sql" />
+    <Build Include="StoredProcedures\utilizador\sp_utilizador_updatePass.sql" />
+    <Build Include="StoredProcedures\utilizador\sp_utilizador_updateUser.sql" />
   </ItemGroup>
 </Project>
