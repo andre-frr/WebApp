@@ -196,15 +196,15 @@ namespace WebApp.Controllers
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
-        public IActionResult ChangePassword(string currentPassword, string newPass, string confirmPass)
+        public IActionResult ChangePassword(UserProfileViewModel model)
         {
-            if (string.IsNullOrEmpty(currentPassword) || string.IsNullOrEmpty(newPass) || string.IsNullOrEmpty(confirmPass))
+            if (string.IsNullOrEmpty(model.pass) || string.IsNullOrEmpty(model.newPass) || string.IsNullOrEmpty(model.confirmPass))
             {
                 ViewData["ErrorMessage"] = "Todos os campos são obrigatórios.";
                 return View("Profile", GetProfileViewModel());
             }
 
-            if (newPass != confirmPass)
+            if (model.newPass != model.confirmPass)
             {
                 ViewData["ErrorMessage"] = "A nova password e a confirmação não coincidem.";
                 return View("Profile", GetProfileViewModel());
@@ -220,15 +220,13 @@ namespace WebApp.Controllers
 
             var currentUser = _userService.GetUserById(userID);
 
-            if (currentUser.pass != currentPassword)
+            if (currentUser == null || currentUser.pass != model.pass)
             {
                 ViewData["ErrorMessage"] = "A password atual está incorreta.";
                 return View("Profile", GetProfileViewModel());
             }
 
-            currentUser.pass = newPass;
-
-            var result = _userService.UpdateUser(currentUser);
+            var result = _userService.UpdatePassword(userID, model.newPass);
 
             if (!result.status)
             {
