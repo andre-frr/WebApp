@@ -6,10 +6,14 @@
         public string apelido { get; set; }
         public string email { get; set; }
         public string pass { get; set; }
-        public DateOnly dt_nascimento { get; set; }
+        public DateTime dt_nascimento { get; set; }
         public string morada { get; set; }
         public int nif { get; set; }
         public string cidade { get; set; }
-        public char cod_postal { get; set; }
+        public string? cod_postal { get; set; }
+
+        //Propriedades para o update da password
+        public string newPass { get; set; }
+        public string confirmPass { get; set; }
     }
 }
