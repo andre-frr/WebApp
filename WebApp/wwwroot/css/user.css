@@ -51,7 +51,7 @@ button {
     font-weight: bold;
     background-color: #212529;
     color: white;
-    margin-left: auto;
+    margin: auto;
     display: block;
 }
 

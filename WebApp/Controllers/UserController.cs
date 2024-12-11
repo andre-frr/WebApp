@@ -141,6 +141,106 @@ namespace WebApp.Controllers
         }
 
         [HttpPost]
+        [Authorize]
+        [ValidateAntiForgeryToken]
+        public IActionResult UpdateProfile(UserProfileViewModel model)
+        {
+            if (model == null ||
+    string.IsNullOrEmpty(model.nome) ||
+    string.IsNullOrEmpty(model.apelido) ||
+    string.IsNullOrEmpty(model.email) ||
+    model.dt_nascimento == null ||
+    string.IsNullOrEmpty(model.morada) ||
+    model.nif <= 0 ||
+    string.IsNullOrEmpty(model.cidade) ||
+    string.IsNullOrEmpty(model.cod_postal))
+            {
+                ViewData["ErrorMessage"] = "Por favor, preencha todos os campos obrigatórios.";
+                return View("Profile", model);
+            }
+
+
+            var user = _httpContextAccessor.HttpContext.User;
+            var userIDClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+
+            if (string.IsNullOrEmpty(userIDClaim) || !int.TryParse(userIDClaim, out int userID))
+            {
+                throw new Exception("ID não encontrado ou formato inválido.");
+            }
+
+            utilizadorDTO dto = new utilizadorDTO
+            {
+                userID = userID,
+                nome = model.nome,
+                apelido = model.apelido,
+                email = model.email,
+                dt_nascimento = model.dt_nascimento,
+                morada = model.morada,
+                nif = model.nif,
+                cidade = model.cidade,
+                cod_postal = model.cod_postal
+            };
+
+            var result = _userService.UpdateUser(dto);
+
+            if (!result.status)
+            {
+                ViewData["ErrorMessage"] = "Ocorreu um erro ao atualizar os detalhes. Por favor, tente novamente.";
+                return View("Profile", model);
+            }
+
+            ViewData["SuccessMessage"] = "Detalhes atualizados com sucesso.";
+            return RedirectToAction("Profile");
+        }
+
+        [HttpPost]
+        [Authorize]
+        [ValidateAntiForgeryToken]
+        public IActionResult ChangePassword(string currentPassword, string newPass, string confirmPass)
+        {
+            if (string.IsNullOrEmpty(currentPassword) || string.IsNullOrEmpty(newPass) || string.IsNullOrEmpty(confirmPass))
+            {
+                ViewData["ErrorMessage"] = "Todos os campos são obrigatórios.";
+                return View("Profile", GetProfileViewModel());
+            }
+
+            if (newPass != confirmPass)
+            {
+                ViewData["ErrorMessage"] = "A nova password e a confirmação não coincidem.";
+                return View("Profile", GetProfileViewModel());
+            }
+
+            var user = _httpContextAccessor.HttpContext.User;
+            var userIDClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+
+            if (string.IsNullOrEmpty(userIDClaim) || !int.TryParse(userIDClaim, out int userID))
+            {
+                throw new Exception("ID não encontrado ou formato inválido.");
+            }
+
+            var currentUser = _userService.GetUserById(userID);
+
+            if (currentUser.pass != currentPassword)
+            {
+                ViewData["ErrorMessage"] = "A password atual está incorreta.";
+                return View("Profile", GetProfileViewModel());
+            }
+
+            currentUser.pass = newPass;
+
+            var result = _userService.UpdateUser(currentUser);
+
+            if (!result.status)
+            {
+                ViewData["ErrorMessage"] = "Ocorreu um erro ao atualizar a password. Por favor, tente novamente.";
+                return View("Profile", GetProfileViewModel());
+            }
+
+            ViewData["SuccessMessage"] = "Password atualizada com sucesso.";
+            return RedirectToAction("Profile");
+        }
+
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
