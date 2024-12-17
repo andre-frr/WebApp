@@ -12,7 +12,7 @@ begin
         from utilizador
         where userID = @userID;
     end
-    -- Check if email and password are provided
+    -- email e pass
     else if @email is not null and @pass is not null
     begin
         select * 

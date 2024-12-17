@@ -73,4 +73,7 @@
     <Build Include="StoredProcedures\eventos\sp_evento_get.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_update.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Database.publish.xml" />
+  </ItemGroup>
 </Project>

@@ -146,19 +146,18 @@ namespace WebApp.Controllers
         public IActionResult UpdateProfile(UserProfileViewModel model)
         {
             if (model == null ||
-    string.IsNullOrEmpty(model.nome) ||
-    string.IsNullOrEmpty(model.apelido) ||
-    string.IsNullOrEmpty(model.email) ||
-    model.dt_nascimento == null ||
-    string.IsNullOrEmpty(model.morada) ||
-    model.nif <= 0 ||
-    string.IsNullOrEmpty(model.cidade) ||
-    string.IsNullOrEmpty(model.cod_postal))
+                string.IsNullOrEmpty(model.nome) ||
+                string.IsNullOrEmpty(model.apelido) ||
+                string.IsNullOrEmpty(model.email) ||
+                model.dt_nascimento == null ||
+                string.IsNullOrEmpty(model.morada) ||
+                model.nif <= 0 ||
+                string.IsNullOrEmpty(model.cidade) ||
+                string.IsNullOrEmpty(model.cod_postal))
             {
                 ViewData["ErrorMessage"] = "Por favor, preencha todos os campos obrigatórios.";
                 return View("Profile", model);
             }
-
 
             var user = _httpContextAccessor.HttpContext.User;
             var userIDClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
