@@ -1,9 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
 using WebApp.Helpers;
 using WebApp.Models.DTOs;
 using WebApp.Models.ViewModels.Home;

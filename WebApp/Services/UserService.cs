@@ -39,14 +39,9 @@ namespace WebApp.Services
             List<utilizadorDTO> listc = new List<utilizadorDTO>();
 
             DynamicParameters parameters = new DynamicParameters();
-            if (!string.IsNullOrEmpty(email))
-            {
-                parameters.Add("@email", email, DbType.String, ParameterDirection.Input);
-            }
-            if (!string.IsNullOrEmpty(pass))
-            {
-                parameters.Add("@pass", pass, DbType.String, ParameterDirection.Input);
-            }
+            parameters.Add("@userID", null, DbType.Int32, ParameterDirection.Input);
+            parameters.Add("@email", string.IsNullOrEmpty(email) ? null : email, DbType.String, ParameterDirection.Input);
+            parameters.Add("@pass", string.IsNullOrEmpty(pass) ? null : pass, DbType.String, ParameterDirection.Input);
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
@@ -65,7 +60,7 @@ namespace WebApp.Services
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
-                user = conn.QueryFirstOrDefault<utilizadorDTO>(Constants.sp_utilizador_getById, parameters, commandType: CommandType.StoredProcedure);
+                user = conn.QueryFirstOrDefault<utilizadorDTO>(Constants.sp_utilizador_get, parameters, commandType: CommandType.StoredProcedure);
             }
 
             return user;
@@ -88,7 +83,7 @@ namespace WebApp.Services
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
-                result = conn.Execute(Constants.sp_utilizador_updateUser, parameters, commandType: CommandType.StoredProcedure);
+                result = conn.Execute(Constants.sp_utilizador_update, parameters, commandType: CommandType.StoredProcedure);
             }
 
             return new ExecutionResultFactory<utilizadorDTO>().GetSuccessExecutionResult(dto, result > 0 ? string.Empty : "Error updating the user.");
@@ -104,7 +99,7 @@ namespace WebApp.Services
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
-                result = conn.Execute(Constants.sp_utilizador_updatePass, parameters, commandType: CommandType.StoredProcedure);
+                result = conn.Execute(Constants.sp_utilizador_update, parameters, commandType: CommandType.StoredProcedure);
             }
 
             return new ExecutionResultFactory<bool>().GetSuccessExecutionResult(result > 0, result > 0 ? "Password updated successfully." : "Error updating the password.");
