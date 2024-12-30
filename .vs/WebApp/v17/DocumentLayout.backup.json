@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\home\\homeindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,14 +59,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T18:24:09.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeService.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\HomeService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\HomeService.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\HomeService.cs",
+              "RelativeToolTip": "WebApp\\Services\\HomeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:45:39.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeIndexViewModel.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
+              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
+              "RelativeToolTip": "WebApp\\Models\\ViewModels\\Home\\HomeIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:37:27.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\UserService.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\UserService.cs",
+              "RelativeToolTip": "WebApp\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:03:52.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\UserController.cs",
               "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T14:57:59.235Z",
+              "WhenOpened": "2024-12-30T18:03:50.279Z",
               "EditorCaption": ""
             }
           ]
