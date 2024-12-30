@@ -24,5 +24,13 @@ namespace WebApp.Controllers
 
             return View(viewModel);
         }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }

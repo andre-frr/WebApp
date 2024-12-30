@@ -13,7 +13,6 @@ namespace WebApp.Controllers
 {
     public class UserController : Controller
     {
-        private readonly MyOptions _myOptions;
         private readonly UserService _userService;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
