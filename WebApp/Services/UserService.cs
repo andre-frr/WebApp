@@ -28,10 +28,10 @@ namespace WebApp.Services
 
             using (IDbConnection conn = new SqlConnection(_myOptions.ConnString))
             {
-                result = conn.Execute(Constants.sp_utilizador_insert, parameters, commandType: CommandType.StoredProcedure);
+                result = conn.Execute(Constants.sp_utilizador_create, parameters, commandType: CommandType.StoredProcedure);
             }
 
-            return new ExecutionResultFactory<utilizadorDTO>().GetSuccessExecutionResult(dto, result > 0 ? string.Empty : "Error inserting the user.");
+            return new ExecutionResultFactory<utilizadorDTO>().GetSuccessExecutionResult(dto, result > 0 ? string.Empty : "Error creating the user.");
         }
 
         public ExecutionResult<List<utilizadorDTO>> Get(string email, string pass)

@@ -1,4 +1,4 @@
-﻿create procedure [dbo].[sp_utilizador_insert]
+﻿create procedure [dbo].[sp_utilizador_create]
 	@nome nvarchar(max),
 	@apelido nvarchar(max),
 	@email nvarchar(max),
