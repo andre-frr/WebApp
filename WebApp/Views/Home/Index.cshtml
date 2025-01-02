@@ -13,7 +13,9 @@
         {
             string eventAction = evento.titulo
                 .Replace(" ", "")
-                .Replace("ú", "u");
+                .Replace("ú", "u")
+                .Replace("-", "");
+
             <div class="event" onclick="window.location.href='@Url.Action(eventAction, "Events")'">
                 <h2>@evento.data_hora.ToString("dd MMM | HH:mm")</h2>
                 <img src="@Url.Content(evento.imagem) " alt="@Url.Content(@evento.titulo)">
