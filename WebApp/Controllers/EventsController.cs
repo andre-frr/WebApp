@@ -12,7 +12,7 @@ namespace WebApp.Controllers
         {
             return View();
         }
-        public IActionResult AhAmalia()
+        public IActionResult AhAmáliaLIVINGEXPERIENCE()
         {
             return View();
         }
@@ -20,7 +20,7 @@ namespace WebApp.Controllers
         {
             return View();
         }
-        public IActionResult MorteDoCorvo()
+        public IActionResult AMorteDoCorvo()
         {
             return View();
         }
