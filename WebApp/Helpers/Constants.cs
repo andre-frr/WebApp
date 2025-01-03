@@ -12,5 +12,6 @@
 
         //Carrinho
         public const string sp_carrinho_create = "sp_carrinho_create";
+        public const string sp_carrinho_update = "sp_carrinho_update";
     }
 }
