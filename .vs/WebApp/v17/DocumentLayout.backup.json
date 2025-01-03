@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|D:\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\WebApp-TI_Grupo3\\Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|D:\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\WebApp-TI_Grupo3\\Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\WebApp-TI_Grupo3\\Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Database\\bin\\Debug\\Database_4.publish.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|d:\\repos\\webapp-ti_grupo3\\webapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "sp_carrinho_create.sql ",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql",
-              "RelativeDocumentMoniker": "Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\carrinho\\sp_carrinho_create.sql\r\n(localdb)\\ProjectModels.Database\r\n(PC-ANDRE\\ANDRE)",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-02T17:14:36.422Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -81,37 +58,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Database_4.publish.sql ",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\Database\\bin\\Debug\\Database_4.publish.sql",
-              "RelativeDocumentMoniker": "Database\\bin\\Debug\\Database_4.publish.sql",
-              "ToolTip": "Database_4.publish.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-01-02T17:14:54.351Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T15:18:05.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CheckoutController.cs",
-              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\CheckoutController.cs",
-              "RelativeDocumentMoniker": "WebApp\\Controllers\\CheckoutController.cs",
-              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\CheckoutController.cs",
-              "RelativeToolTip": "WebApp\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCYAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T16:45:16.846Z",
+              "WhenOpened": "2025-01-03T15:09:43.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:51:05.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CheckoutService.cs",
               "DocumentMoniker": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\CheckoutService.cs",
               "RelativeDocumentMoniker": "WebApp\\Services\\CheckoutService.cs",
               "ToolTip": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\CheckoutService.cs",
               "RelativeToolTip": "WebApp\\Services\\CheckoutService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwCUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T16:26:04.439Z",
               "EditorCaption": ""

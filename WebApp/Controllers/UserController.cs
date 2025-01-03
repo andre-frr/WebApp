@@ -14,12 +14,14 @@ namespace WebApp.Controllers
     public class UserController : Controller
     {
         private readonly UserService _userService;
+        private readonly CheckoutService _checkoutService;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public UserController(IOptions<MyOptions> myOptions, IHttpContextAccessor httpContextAccessor)
+        public UserController(IOptions<MyOptions> myOptions, IHttpContextAccessor httpContextAccessor, CheckoutService checkoutService)
         {
             _userService = new UserService(myOptions);
             _httpContextAccessor = httpContextAccessor;
+            _checkoutService = checkoutService;
         }
 
         public IActionResult Login()
@@ -62,6 +64,13 @@ namespace WebApp.Controllers
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
+
+            var results = _checkoutService.AssociarCarrinho(user.userID);
+
+            if (!results.status)
+            {
+                ViewData["ErrorMessage"] = results.message.First();
+            }
 
             return RedirectToAction("Profile");
         }

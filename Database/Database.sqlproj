@@ -74,6 +74,7 @@
     <Build Include="StoredProcedures\eventos\sp_evento_get.sql" />
     <Build Include="StoredProcedures\utilizador\sp_utilizador_update.sql" />
     <Build Include="StoredProcedures\carrinho\sp_carrinho_create.sql" />
+    <Build Include="StoredProcedures\carrinho\sp_carrinho_update.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Database.publish.xml" />

@@ -10,9 +10,9 @@ namespace WebApp.Controllers
     {
         private readonly CheckoutService _checkoutService;
 
-        public CheckoutController(IOptions<MyOptions> myOptions)
+        public CheckoutController(IOptions<MyOptions> myOptions, IHttpContextAccessor httpContextAccessor)
         {
-            _checkoutService = new CheckoutService(myOptions);
+            _checkoutService = new CheckoutService(myOptions, httpContextAccessor);
         }
 
         public IActionResult Index()
