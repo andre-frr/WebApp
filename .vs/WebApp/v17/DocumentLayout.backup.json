@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_evento_get1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\services\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\eventsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\helpers\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\models\\viewmodels\\events\\eventsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\viewmodels\\events\\eventsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\aham\u00E1lialivingexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\aham\u00E1lialivingexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{78E5F826-7D03-43D2-8B40-40B64A1ED780}|Database\\Database.sqlproj|solutionrelative:Database\\StoredProcedures\\eventos\\sp_evento_get1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\models\\dtos\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "eventoDTO.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\DTOs\\eventoDTO.cs",
               "RelativeDocumentMoniker": "WebApp\\Models\\DTOs\\eventoDTO.cs",
@@ -92,33 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeService.cs",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\HomeService.cs",
-              "RelativeDocumentMoniker": "WebApp\\Services\\HomeService.cs",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\HomeService.cs",
-              "RelativeToolTip": "WebApp\\Services\\HomeService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:42:27.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Constants.cs",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Helpers\\Constants.cs",
-              "RelativeDocumentMoniker": "WebApp\\Helpers\\Constants.cs",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Helpers\\Constants.cs",
-              "RelativeToolTip": "WebApp\\Helpers\\Constants.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T16:40:33.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "sp_evento_get1.sql ",
               "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\Database\\StoredProcedures\\eventos\\sp_evento_get1.sql",
               "RelativeDocumentMoniker": "Database\\StoredProcedures\\eventos\\sp_evento_get1.sql",
@@ -129,54 +83,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventsService.cs",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\EventsService.cs",
-              "RelativeDocumentMoniker": "WebApp\\Services\\EventsService.cs",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Services\\EventsService.cs",
-              "RelativeToolTip": "WebApp\\Services\\EventsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:12:34.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\Events\\EventsViewModel.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\ViewModels\\Events\\EventsViewModel.cs",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Models\\ViewModels\\Events\\EventsViewModel.cs",
-              "RelativeToolTip": "WebApp\\Models\\ViewModels\\Events\\EventsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:11:56.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\EventsController.cs",
               "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
               "RelativeToolTip": "WebApp\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwAYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-03T14:10:30.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
-              "RelativeToolTip": "WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-03T14:10:12.438Z",
               "EditorCaption": ""
             }
           ]

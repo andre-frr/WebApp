@@ -7,31 +7,36 @@
 <div class="event-container">
     <div class="event-header">
         <div class="image-wrapper">
-            <img src="~/img/FCENPoster.jpeg" alt="Fica Comigo Esta Noite">
+            <img src="@Url.Content(Model.imagem)" alt="@Model.titulo">
         </div>
         <div class="event-details">
-            <h1>Fica Comigo Esta Noite</h1>
+            <h1>@Model.titulo</h1>
             <p class="event-classification">
-                Classificação: Maiores de 14 anos<br>
-                Tipo: Teatro
+                Classificação: @Model.classificacao<br>
+                Tipo: @Model.tipo
             </p>
             <div class="event-notes">
-                <h4>Começo: 21:30</h4>
-                <h4>Duração: 90 minutos</h4>
+                <h4>Data e Hora: @Model.data_hora.ToString("dd MMM yyyy | HH:mm")</h4>
+                <h4>Local: @Model.local_evento</h4>
+                <h4>Preço: €@Model.preco.ToString("F2")</h4>
+                <h4>Lotação Máxima: @Model.lotacao pessoas</h4>
             </div>
         </div>
     </div>
 
     <div class="event-description">
         <h2><strong>DESCRIÇÃO</strong></h2>
-        <p>
-            Numa pequena cidade, um funcionário de classe média/baixa morre de repente, depois de um farto almoço. A sua esposa não está presente e para ela o sentimento de perda soma-se ao da culpa porque estava fora de casa no momento fatídico.<br><br>
-            A notícia espalha-se, ela decide que o marido será velado na cama do casal, e não tarda em começar a receber visitas de amigos, vizinhos e parentes. Num turbilhão de sentimentos e perante toda a situação, ela apenas consegue lembrar-se dos episódios maus que passou com o marido. É então que, sem qualquer cerimónia, ele passa a ser espectador do seu próprio velório! Já sozinhos, ele passa de espectador a interveniente e decide questionar a sua própria mulher.<br><br>
-            Eles discutem. Brincam. Põem em pratos limpos todas as desavenças, rancores e traições. Os mal-entendidos acabam por ser desfeitos. As traições perdoadas e, acima de tudo, os votos de amor renovados. Depois de uma noite de comédia e romance, quando ela abre a porta do quarto, já pode enterrar o seu marido em paz!
-        </p>
+        @if (!string.IsNullOrEmpty(Model.descricao))
+        {
+            <div>@Html.Raw(Model.descricao)</div>
+        }
+        else
+        {
+            <p>Descrição não disponível para este evento.</p>
+        }
     </div>
 
     <div class="button-wrapper">
-        <a href="@Url.Action("Index", "Ticket")" class="buy-button">ADICIONAR</a>
+        <a href="#" class="buy-button">ADICIONAR AO CARRINHO</a>
     </div>
 </div>
