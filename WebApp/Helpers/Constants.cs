@@ -9,6 +9,7 @@
 
         //Evento
         public const string sp_evento_get = "sp_evento_get";
+        public const string sp_evento_get1 = "sp_evento_get1";
 
         //Carrinho
         public const string sp_carrinho_create = "sp_carrinho_create";

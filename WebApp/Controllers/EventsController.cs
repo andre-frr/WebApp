@@ -3,6 +3,8 @@ using Microsoft.Extensions.Options;
 using WebApp.Helpers;
 using WebApp.Models.ViewModels.Events;
 using WebApp.Services;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace WebApp.Controllers
 {
@@ -14,30 +16,62 @@ namespace WebApp.Controllers
         {
             _eventsService = new EventsService(myOptions);
         }
+        public async Task<IActionResult> AhAmáliaLIVINGEXPERIENCE()
+        {
+            var evento = await _eventsService.GetEventoByTituloAsync("Ah Amália - Living Experience");
+
+            if (evento == null) return NotFound();
+
+            string descricao = string.Empty;
+            if (!string.IsNullOrEmpty(evento.descricao))
+            {
+                string filePath = Path.Combine(Directory.GetCurrentDirectory(), evento.descricao);
+                if (System.IO.File.Exists(filePath))
+                {
+                    descricao = System.IO.File.ReadAllText(filePath);
+                }
+            }
+            else
+            {
+                descricao = "Descrição não disponível.";
+            }
+
+            var viewModel = new EventsViewModel
+            {
+                titulo = evento.titulo,
+                imagem = evento.imagem,
+                tipo = evento.tipo,
+                classificacao = evento.classificacao,
+                data_hora = evento.data_hora,
+                local_evento = evento.local_evento,
+                descricao = descricao, 
+                preco = evento.preco,
+                lotacao = evento.lotacao
+            };
+
+            return View(viewModel);
+        }
+
         public IActionResult FicaComigoEstaNoite()
         {
             return View();
         }
+
         public IActionResult QueridoEvanHansen()
         {
             return View();
         }
-        public async Task<IActionResult> AhAmáliaLIVINGEXPERIENCE()
-        {
-            var evento = await _eventsService.GetEventoByTituloAsync("Ah Amália - Living Experience");
-            if (evento == null) return NotFound();
 
-            var viewModel = new EventsViewModel { Evento = evento };
-            return View(viewModel);
-        }
         public IActionResult SolteiraCasadaViuvaDivorciada()
         {
             return View();
         }
+
         public IActionResult AMorteDoCorvo()
         {
             return View();
         }
+
         public IActionResult BuyTicket()
         {
             return View();

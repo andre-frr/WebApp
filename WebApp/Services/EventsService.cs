@@ -15,17 +15,13 @@ namespace WebApp.Services
         {
             _myOptions = myOptions.Value;
         }
-        public async Task<List<eventoDTO>> GetEventosAsync()
-        {
-            using var connection = new SqlConnection(_myOptions.ConnString);
-            var eventos = await connection.QueryAsync<eventoDTO>("sp_evento_get", commandType: CommandType.StoredProcedure);
-            return eventos.ToList();
-        }
+
         public async Task<eventoDTO> GetEventoByTituloAsync(string titulo)
         {
-            var query = "SELECT * FROM Evento WHERE Titulo = @Titulo";
             using var connection = new SqlConnection(_myOptions.ConnString);
-            var evento = await connection.QueryFirstOrDefaultAsync<eventoDTO>(query, new { Titulo = titulo });
+
+            var evento = await connection.QueryFirstOrDefaultAsync<eventoDTO>(Constants.sp_evento_get1,new { Titulo = titulo },commandType: CommandType.StoredProcedure);
+
             return evento;
         }
     }
