@@ -7,36 +7,36 @@
 <div class="event-container">
     <div class="event-header">
         <div class="image-wrapper">
-            <img src="~/img/CorvoPoster.jpeg" alt="A Morte do Corvo">
+            <img src="@Url.Content(Model.imagem)" alt="@Model.titulo">
         </div>
         <div class="event-details">
-            <h1>A Morte do Corvo</h1>
+            <h1>@Model.titulo</h1>
             <p class="event-classification">
-                Classificação: Maiores de 18 anos <sup>1</sup><br>
-                Tipo: Teatro Imersivo
+                Classificação: @Model.classificacao<br>
+                Tipo: @Model.tipo
             </p>
             <div class="event-notes">
-                <h4>Começo: 14:00</h4>
-                <h4>Duração: 110 minutos</h4>
+                <h4>Data e Hora: @Model.data_hora.ToString("dd MMM yyyy | HH:mm")</h4>
+                <h4>Local: @Model.local_evento</h4>
+                <h4>Preço: €@Model.preco.ToString("F2")</h4>
+                <h4>Lotação Máxima: @Model.lotacao pessoas</h4>
             </div>
         </div>
     </div>
 
     <div class="event-description">
         <h2><strong>DESCRIÇÃO</strong></h2>
-        <p>
-            Pessoa convida o seu grande amigo Mário para o ritual de iniciação à ORDEM dos CORVOS, uma sociedade que procura o segredo da vida para além da morte. A Ordem, liderada por Edgar A. Poe, esconde-se no andar de cima da funerária Nevermore.<br><br>
-            Vários acontecimentos vão precipitar Pessoa num ciclo depressivo que terminará da pior forma. A rejeição da sua mulher Ofélia será o primeiro. O segundo, o suicídio de Mário. E o derradeiro … um profundo descrédito em si próprio.<br><br>
-            Tudo isto orquestrado por Poe, movido por uma incontrolável inveja da genialidade de Pessoa.<br><br>
-            Bem-vindos ao funeral anunciado de um dos maiores poetas de sempre.
-        </p>
+        @if (!string.IsNullOrEmpty(Model.descricao))
+        {
+            <div>@Html.Raw(Model.descricao)</div>
+        }
+        else
+        {
+            <p>Descrição não disponível para este evento.</p>
+        }
     </div>
 
-    <small class="age-note">
-        <sup>1</sup> Menores de 18 anos podem entrar acompanhados por um adulto.
-    </small>
-
     <div class="button-wrapper">
-        <a href="@Url.Action("Index", "Ticket")" class="buy-button">ADICIONAR</a>
+        <a href="#" class="buy-button">ADICIONAR AO CARRINHO</a>
     </div>
 </div>
