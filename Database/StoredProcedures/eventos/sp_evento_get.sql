@@ -4,8 +4,13 @@ BEGIN
     SELECT 
         titulo,
         imagem,
+        tipo,
+        classificacao,
         data_hora,
-        local_evento
+        local_evento,
+        descricao,
+        preco,
+        lotacao
     FROM Evento
     ORDER BY data_hora ASC
 END

@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Ah Amália - Living Experience";
+﻿@model WebApp.Models.ViewModels.Events.EventsViewModel
+
+@{
+    ViewData["Title"] = Model.Evento.titulo;
 }
 
 <link rel="stylesheet" href="~/css/events.css">
@@ -7,66 +9,29 @@
 <div class="event-container">
     <div class="event-header">
         <div class="image-wrapper">
-            <img src="~/img/AmaliaPoster.jpeg" alt="Ah Amália">
+            <img src="@Url.Content(Model.Evento.imagem)" alt="@Model.Evento.titulo">
         </div>
         <div class="event-details">
-            <h1>Ah Amália - <span class="event-experience">LIVING EXPERIENCE</span></h1>
+            <h1>@Model.Evento.titulo</h1>
             <p class="event-classification">
-                Classificação: Adequado a todas as idades<br>
-                Tipo: Museus & Exposições
+                Classificação: @Model.Evento.classificacao<br>
+                Tipo: @Model.Evento.tipo
             </p>
             <div class="event-notes">
-                <h4>Começo: 14:30</h4>
-                <h4>Entradas: 14:30 às 19:00</h4>
-                <small>Entradas de 30 em 30 minutos mediante disponibilidade de lotação.</small>
+                <h4>Data e Hora: @Model.Evento.data_hora.ToString("dd MMM yyyy | HH:mm")</h4>
+                <h4>Local: @Model.Evento.local_evento</h4>
+                <h4>Preço: €@Model.Evento.preco.ToString("F2")</h4>
+                <h4>Lotação Máxima: @Model.Evento.lotacao pessoas</h4>
             </div>
         </div>
     </div>
 
     <div class="event-description">
         <h2><strong>DESCRIÇÃO</strong></h2>
-        <p>
-            A primeira história Biográfica Imersiva dedicada a uma personalidade nacional.<br>
-            Amália é mais do que a Rainha do Fado – é a sua Alma.<br>
-            É próxima de todos e para todos.<br>
-            É uma vida própria e imortal.<br>
-            <br>
-            Ah Amália!<br>
-            Ah Fadista!<br>
-            AH, O ESPANTO!<br>
-            AH, O ENCANTO!<br>
-            Amália é inspiração, é poesia.<br>
-            É uma estranha forma de vida.<br>
-            “O Fado não se canta – acontece.” Ela dizia.<br>
-            E Amália não se conta. Inspira-se, expira-se. E vive-se.<br>
-            <br>
-            Revolucionária e encantadora, eterna e etérea, Amália é o retrato do Fado e de um imaginário que apaixona o mundo inteiro. Amália transcende a matéria, vive nas referências de todos, na história de uma cultura e na representação de um povo.<br>
-            <br>
-            Entre na vida de uma mulher inspiradora e conheça toda a sua profundidade, de uma forma inovadora, interativa e absolutamente sensorial.<br>
-            <br>
-            A Exposição<br>
-            AH, É UMA EXPOSIÇÃO?<br>
-            AHHH… É UM ESPETÁCULO!<br>
-            AH! É UMA IMERSÃO.<br>
-            É UMA LIVING EXPERIENCE.<br>
-            <br>
-            Para sentir Amália, não é suficiente explicá-la.<br>
-            <br>
-            Venha ver e reviver Amália, numa exposição única e imersiva.<br>
-            <br>
-            Conheça Amália de uma forma nunca antes vista, ouvida, sentida – numa experiência sensorial, dinâmica e inesquecível.<br>
-            <br>
-            Embarque numa viagem única pelo espólio material e imaterial da artista, cenografia de época, conteúdos dinâmicos e interativos – cruzando o físico com o digital e a tecnologia de ponta.<br>
-            <br>
-            Uma viagem de emoções de mão dada com uma das mulheres mais inspiradoras de sempre.<br>
-            <br>
-            Que ficará na memória, além das fronteiras do tempo e do espaço.<br>
-            <br>
-            E o espectador fará parte dessa troca.<br>
-        </p>
+        <p>@Model.Evento.descricao</p>
     </div>
 
     <div class="button-wrapper">
-        <a href="#" class="buy-button">ADICIONAR</a>
+        <a href="#" class="buy-button">ADICIONAR AO CARRINHO</a>
     </div>
 </div>
