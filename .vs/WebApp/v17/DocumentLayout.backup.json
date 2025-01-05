@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\wwwroot\\html\\ahamalia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\html\\ahamalia.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|c:\\users\\diogo\\source\\repos\\webapp-ti_grupo3\\webapp\\views\\events\\aham\u00E1lialivingexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05781D20-8984-4239-9168-CE64D455E17D}|WebApp\\WebApp.csproj|solutionrelative:webapp\\views\\events\\aham\u00E1lialivingexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,19 +51,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AhAmalia.html",
-              "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\wwwroot\\html\\AhAmalia.html",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\html\\AhAmalia.html",
-              "ToolTip": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\wwwroot\\html\\AhAmalia.html",
-              "RelativeToolTip": "WebApp\\wwwroot\\html\\AhAmalia.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-04T14:33:13.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
               "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
               "RelativeDocumentMoniker": "WebApp\\Views\\Events\\AhAm\u00E1liaLIVINGEXPERIENCE.cshtml",
@@ -80,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "WebApp\\Controllers\\EventsController.cs",
@@ -88,8 +71,7 @@
               "RelativeToolTip": "WebApp\\Controllers\\EventsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T14:10:30.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-03T14:10:30.392Z"
             }
           ]
         }
