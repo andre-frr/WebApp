@@ -109,20 +109,6 @@ namespace WebApp.Controllers
 
             if (evento == null) return NotFound();
 
-            string descricao = string.Empty;
-            if (!string.IsNullOrEmpty(evento.descricao))
-            {
-                string filePath = Path.Combine(Directory.GetCurrentDirectory(), evento.descricao);
-                if (System.IO.File.Exists(filePath))
-                {
-                    descricao = System.IO.File.ReadAllText(filePath);
-                }
-            }
-            else
-            {
-                descricao = "Descrição não disponível.";
-            }
-
             var viewModel = new EventsViewModel
             {
                 titulo = evento.titulo,
@@ -131,7 +117,7 @@ namespace WebApp.Controllers
                 classificacao = evento.classificacao,
                 data_hora = evento.data_hora,
                 local_evento = evento.local_evento,
-                descricao = descricao,
+                descricao = evento.descricao,
                 preco = evento.preco,
                 lotacao = evento.lotacao
             };
