@@ -26,17 +26,10 @@
 
     <div class="event-description">
         <h2><strong>DESCRIÇÃO</strong></h2>
-        @if (!string.IsNullOrEmpty(Model.descricao))
-        {
-            <div>@Html.Raw(Model.descricao)</div>
-        }
-        else
-        {
-            <p>Descrição não disponível para este evento.</p>
-        }
+        <div>@Html.Raw(Model.descricao)</div>
     </div>
 
     <div class="button-wrapper">
-        <a href="@Url.Action("Index", "Ticket")" class="buy-button">ADICIONAR</a>
+        <a href="#" class="buy-button">ADICIONAR AO CARRINHO</a>
     </div>
 </div>
