@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj": {}
+    "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj": {
+    "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\DIOGO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DIOGO\\source\\repos\\WebApp-TI_Grupo3\\WebApp\\obj\\",
+        "projectPath": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\repos\\WebApp-TI_Grupo3\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programas\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DIOGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
